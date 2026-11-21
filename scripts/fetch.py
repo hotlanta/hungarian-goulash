@@ -7,7 +7,7 @@ from html.parser import HTMLParser
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs/data/items.json"
 MAX_AGE_DAYS, MAX_ITEMS = 45, 500
-UA = "hungarian-goulash/1.0 (+https://github.com)"
+UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 hungarian-goulash/1.0"
 
 def clean(s, n=280):
     s = html.unescape(re.sub(r"<[^>]+>", " ", s or ""))
@@ -36,16 +36,17 @@ def scrape(f):
     page = urllib.request.urlopen(urllib.request.Request(f["url"], headers={"User-Agent": UA}), timeout=30).read().decode("utf-8", "replace")
     p = _Links(); p.feed(page)
     pat = re.compile(f.get("link_pattern", r"/\d{4}/\d{2}/\d{2}/"))
-    best = {}
+    seen = {}   # href -> [(in_heading, text), ...] in page order
     for l in p.links:
         href, t = urljoin(f["url"], l["href"]), re.sub(r"\s+", " ", l["text"]).strip()
-        if not pat.search(href) or len(t) < 15: continue
-        old = best.get(href)
-        if old is None or (l["h"] and not old[0]) or (l["h"] == old[0] and len(t) > len(old[1])): best[href] = (l["h"], t)
+        if pat.search(href) and len(t) >= 15 and t not in [x[1] for x in seen.get(href, [])]:
+            seen.setdefault(href, []).append((l["h"], t))
     out = []
-    for href, (_, t) in best.items():
+    for href, texts in seen.items():
+        title = next((t for h, t in texts if h), texts[0][1])
+        rest = [t for _, t in texts if t != title]
         m = re.search(r"/(\d{4})/(\d{2})/(\d{2})/", href)
-        out.append({"link": href, "title": t, "summary": "",
+        out.append({"link": href, "title": title, "summary": rest[0] if (f.get("lede") and rest) else "",
                     "published_parsed": time.strptime("/".join(m.groups()), "%Y/%m/%d") if m else None})
     return out
 
