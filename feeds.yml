@@ -1,0 +1,23 @@
+# Edit to add/remove sources; saving triggers a refresh. enabled: false pauses one.
+# type html: sites with no feed; picks article links by URL pattern (link_pattern: regex, default /YYYY/MM/DD/).
+# url_contains: only keep entries whose link contains this text (used for Telex English).
+default_limit: 4
+feeds:
+  - {name: "Telex English", type: rss, topic: "News", url: "https://telex.hu/rss", url_contains: "/english/", limit: 6}
+  - {name: "Insight Hungary (444)", type: html, topic: "News", url: "https://insighthungary.444.hu/"}
+  - {name: "Átlátszó English", type: rss, topic: "Investigative", url: "https://english.atlatszo.hu/feed/"}
+  - {name: "Daily News Hungary", type: rss, topic: "News", url: "https://dailynewshungary.com/feed/"}
+  - {name: "Hungary Today", type: rss, topic: "News", url: "https://hungarytoday.hu/feed/"}
+  - {name: "Hungarian Conservative", type: rss, topic: "Analysis", url: "https://www.hungarianconservative.com/feed/"}
+  - {name: "Hungarian Spectrum", type: rss, topic: "Analysis", url: "https://hungarianspectrum.org/feed/"}
+  - {name: "VSquare", type: rss, topic: "Investigative", url: "https://vsquare.org/feed/"}
+  - {name: "How To Hungary", type: rss, topic: "Expat life", url: "https://howtohungary.com/feed/"}
+  - {name: "Budapest Times", type: rss, topic: "News", url: "https://www.budapesttimes.hu/feed/"}
+  - {name: "Decoding Hungarian Politics (Substack)", type: rss, topic: "Newsletters", url: "https://hungarianpolitics.substack.com/feed"}
+  - {name: "Hungary Insider (Substack)", type: rss, topic: "Newsletters", url: "https://hungaryinsider.substack.com/feed"}
+  - {name: "Hungarian Observer (Substack)", type: rss, topic: "Newsletters", url: "https://hungarianobserver.substack.com/feed"}
+  - {name: "About Hungary (government)", type: rss, topic: "Government", url: "https://abouthungary.hu/rss", enabled: false}
+voices:   # link-only (Hungarian-language or no feed): use your browser's translate
+  - {name: "444.hu", platform: Website, url: "https://444.hu", note: "Hungarian original. English edition is Insight Hungary in the feed"}
+  - {name: "Telex (Hungarian)", platform: Website, url: "https://telex.hu", note: "Full Hungarian site"}
+  - {name: "Átlátszó (Hungarian)", platform: Website, url: "https://atlatszo.hu", note: "Investigative reporting, Hungarian original"}

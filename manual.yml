@@ -1,0 +1,4 @@
+# Add posts by hand (X, LinkedIn, anything). Commit -> the feed refreshes.
+# Delete a line to remove it. date is optional (defaults to today).
+items:
+  - {title: "Example: thread on docs-as-code", url: "https://x.com/example/status/1", source: "X post", topic: "Community", note: "Why I saved it.", date: 2026-11-16}
