@@ -1,10 +1,11 @@
 {
- "updated": "2026-11-21T21:48:09.779328+00:00",
+ "updated": "2026-11-21T22:06:57.265802+00:00",
  "sources": [
   {
    "name": "Telex English",
-   "ok": true,
-   "count": 6
+   "ok": false,
+   "count": 6,
+   "error": "HTTP Error 403: Forbidden"
   },
   {
    "name": "Insight Hungary (444)",
@@ -50,19 +51,19 @@
    "name": "Decoding Hungarian Politics (Substack)",
    "ok": false,
    "count": 0,
-   "error": "<unknown>:2:1326: not well-formed (invalid token)"
+   "error": "feed HTTP 403; api HTTP 403"
   },
   {
    "name": "Hungary Insider (Substack)",
    "ok": false,
    "count": 0,
-   "error": "<unknown>:2:1326: not well-formed (invalid token)"
+   "error": "feed HTTP 403; api HTTP 403"
   },
   {
    "name": "Hungarian Observer (Substack)",
    "ok": false,
    "count": 0,
-   "error": "<unknown>:2:1326: not well-formed (invalid token)"
+   "error": "feed HTTP 403; api HTTP 403"
   }
  ],
  "voices": [
