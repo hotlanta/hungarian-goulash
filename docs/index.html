@@ -1,7 +1,11 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8">
+<html lang="en">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Hungarian Goulash</title><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg">
+<title>Hungarian Goulash</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg">
 <meta name="theme-color" content="#8f1d14">
 <style>
 :root{--bg:#faf6f0;--card:#fff;--ink:#241b17;--mute:#6d5f55;--line:#e3d6c4;--acc:#8f1d14;--hi:#2f6b3a;--chip:#f1e6d6}
@@ -29,39 +33,176 @@ article a{color:inherit;text-decoration:none}article a:hover{text-decoration:und
 .empty,.note{color:var(--mute);padding:24px 4px;text-align:center}.note{font-size:.82rem;text-align:left;padding:0 0 12px}
 .ok{color:#2e8b57}.bad{color:#c0392b}
 :focus-visible{outline:2px solid var(--hi);outline-offset:2px}
-</style></head><body>
-<header><h1>Hungarian Goulash</h1><p class="sub" id="upd">Loading…</p></header>
-<nav role="tablist"><button role="tab" data-t="feed" aria-selected="true">Feed</button><button role="tab" data-t="saved" aria-selected="false">Saved</button><button role="tab" data-t="voices" aria-selected="false">Hungarian</button><button role="tab" data-t="sources" aria-selected="false">Sources</button></nav>
+</style>
+</head>
+<body>
+<header>
+  <h1>Hungarian Goulash</h1>
+  <p class="sub" id="upd">Loading…</p>
+</header>
+<nav role="tablist">
+  <button role="tab" data-t="feed" aria-selected="true">Feed</button>
+  <button role="tab" data-t="saved" aria-selected="false">Saved</button>
+  <button role="tab" data-t="voices" aria-selected="false">Hungarian</button>
+  <button role="tab" data-t="sources" aria-selected="false">Sources</button>
+</nav>
 <main id="m"></main>
 <script>
-const $=(t,p={},...k)=>{const e=document.createElement(t);for(const[a,v]of Object.entries(p))a==="class"?e.className=v:a.startsWith("on")?e.addEventListener(a.slice(2),v):e.setAttribute(a,v);e.append(...k);return e};
-let D={items:[],sources:[],voices:[]},tab="feed",topic="All",q="";
-let saved=new Set(JSON.parse(localStorage.getItem("saved")||"[]"));
-const persist=()=>localStorage.setItem("saved",JSON.stringify([...saved]));
-const ago=s=>{if(!s)return"";const h=(Date.now()-new Date(s))/36e5;return h<1?"just now":h<24?Math.round(h)+" h ago":Math.round(h/24)+" d ago"};
-function card(i){return $("article",{},
- $("h2",{},$("a",{href:i.link,target:"_blank",rel:"noopener"},i.title||i.link)),
- $("div",{class:"meta"},i.source," · ",i.topic," · ",ago(i.published),
-  $("button",{class:"save","aria-label":saved.has(i.id)?"Remove from saved":"Save",onclick:()=>{saved.has(i.id)?saved.delete(i.id):saved.add(i.id);persist();render()}},saved.has(i.id)?"★":"☆")),
- i.summary?$("p",{class:"sum"},i.summary):"")}
-function list(items){
- const topics=["All",...new Set(D.items.map(i=>i.topic))];
- const bar=$("div",{class:"tools"},
-  $("input",{type:"search",placeholder:"Search Hungary news",value:q,"aria-label":"Search",oninput:e=>{q=e.target.value;const pos=e.target.selectionStart;render();const n=document.querySelector("input");n.focus();n.setSelectionRange(pos,pos)}}),
-  $("div",{class:"chips"},...topics.map(t=>$("button",{class:"chip","aria-pressed":t===topic,onclick:()=>{topic=t;render()}},t))));
- const s=q.toLowerCase(),f=items.filter(i=>(topic==="All"||i.topic===topic)&&(!s||(i.title+i.summary+i.source).toLowerCase().includes(s)));
- return[bar,...(f.length?f.map(card):[$("p",{class:"empty"},tab==="saved"?"Nothing saved yet. Tap ☆ on any item.":"No items match. Clear the search or pick another topic.")])]}
-function render(){
- document.querySelectorAll("nav button").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===tab));
- const m=document.getElementById("m");m.replaceChildren();
- if(tab==="feed")m.append(...list(D.items));
- else if(tab==="saved")m.append($("p",{class:"note"},"Saved items are stored on this device only."),...list(D.items.filter(i=>saved.has(i.id))));
- else if(tab==="voices")m.append($("p",{class:"note"},"Hungarian-language outlets and sites without an English feed. Open them with your browser's translate option."),...(D.voices.length?D.voices.map(v=>$("article",{},$("h2",{},$("a",{href:v.url,target:"_blank",rel:"noopener"},v.name)),$("div",{class:"meta"},v.platform),$("p",{class:"sum"},v.note||""))):[$("p",{class:"empty"},"No voices yet. Add entries under voices: in feeds.yml.")]));
- else m.append($("p",{class:"note"},"A failing source keeps its earlier items. Edit feeds.yml to change this list."),...D.sources.map(s=>$("article",{},$("h2",{},s.name),$("div",{class:"meta"},$("span",{class:s.ok?"ok":"bad"},s.ok?"Working":"Failing"),` · ${s.count} items`,s.error?` · ${s.error}`:""))));
+const $ = (t, p = {}, ...k) => {
+  const e = document.createElement(t);
+  for (const [a, v] of Object.entries(p))
+    a === "class" ? e.className = v :
+    a.startsWith("on") ? e.addEventListener(a.slice(2), v) :
+    e.setAttribute(a, v);
+  e.append(...k);
+  return e;
+};
+
+let D = { items: [], sources: [], voices: [] };
+let tab = "feed", topic = "All", q = "";
+let saved = new Set(JSON.parse(localStorage.getItem("saved") || "[]"));
+const persist = () => localStorage.setItem("saved", JSON.stringify([...saved]));
+
+const ago = (s) => {
+  if (!s) return "";
+  const h = (Date.now() - new Date(s)) / 36e5;
+  return h < 1 ? "just now" : h < 24 ? Math.round(h) + " h ago" : Math.round(h / 24) + " d ago";
+};
+
+function card(i) {
+  return $("article", {},
+    $("h2", {}, $("a", { href: i.link, target: "_blank", rel: "noopener" }, i.title || i.link)),
+    $("div", { class: "meta" },
+      i.source, " · ", i.topic, " · ", ago(i.published),
+      $("button", {
+        class: "save",
+        "aria-label": saved.has(i.id) ? "Remove from saved" : "Save",
+        onclick: () => {
+          saved.has(i.id) ? saved.delete(i.id) : saved.add(i.id);
+          persist();
+          render();
+        }
+      }, saved.has(i.id) ? "★" : "☆")
+    ),
+    i.summary ? $("p", { class: "sum" }, i.summary) : ""
+  );
 }
-document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{tab=b.dataset.t;render();scrollTo(0,0)});
-fetch("data/items.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{D=d;
- document.getElementById("upd").textContent=d.updated?`${d.items.length} items · updated ${ago(d.updated)}`:"No data yet. Run the Update feeds workflow once.";render()})
- .catch(()=>{document.getElementById("upd").textContent="Could not load data. Check your connection.";render()});
-if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js");
-</script></body></html>
+
+function list(items) {
+  const topics = ["All", ...new Set(D.items.map(i => i.topic))];
+  const bar = $("div", { class: "tools" },
+    $("input", {
+      type: "search",
+      placeholder: "Search Hungary news",
+      value: q,
+      "aria-label": "Search",
+      oninput: e => {
+        q = e.target.value;
+        const pos = e.target.selectionStart;
+        render();
+        const n = document.querySelector("input");
+        n.focus();
+        n.setSelectionRange(pos, pos);
+      }
+    }),
+    $("div", { class: "chips" },
+      ...topics.map(t =>
+        $("button", {
+          class: "chip",
+          "aria-pressed": t === topic,
+          onclick: () => { topic = t; render(); }
+        }, t)
+      )
+    )
+  );
+  const s = q.toLowerCase();
+  const f = items.filter(i =>
+    (topic === "All" || i.topic === topic) &&
+    (!s || (i.title + i.summary + i.source).toLowerCase().includes(s))
+  );
+  return [
+    bar,
+    ...(f.length
+      ? f.map(card)
+      : [$("p", { class: "empty" },
+          tab === "saved"
+            ? "Nothing saved yet. Tap ☆ on any item."
+            : "No items match. Clear the search or pick another topic."
+        )])
+  ];
+}
+
+function render() {
+  document.querySelectorAll("nav button").forEach(b =>
+    b.setAttribute("aria-selected", b.dataset.t === tab)
+  );
+  const m = document.getElementById("m");
+  m.replaceChildren();
+
+  if (tab === "feed") {
+    m.append(...list(D.items));
+  } else if (tab === "saved") {
+    m.append(
+      $("p", { class: "note" }, "Saved items are stored on this device only."),
+      ...list(D.items.filter(i => saved.has(i.id)))
+    );
+  } else if (tab === "voices") {
+    m.append(
+      $("p", { class: "note" },
+        "Hungarian-language outlets and sites without an English feed. Open them with your browser's translate option."
+      ),
+      ...(D.voices.length
+        ? D.voices.map(v =>
+            $("article", {},
+              $("h2", {}, $("a", { href: v.url, target: "_blank", rel: "noopener" }, v.name)),
+              $("div", { class: "meta" }, v.platform),
+              $("p", { class: "sum" }, v.note || "")
+            )
+          )
+        : [$("p", { class: "empty" }, "No voices yet. Add entries under voices: in feeds.yml.")])
+    );
+  } else {
+    // Sources tab
+    m.append(
+      $("p", { class: "note" },
+        "A failing source keeps its earlier items. Edit feeds.yml to change this list. Telex English may fail from cloud runners because of Cloudflare protection."
+      ),
+      ...D.sources.map(s =>
+        $("article", {},
+          $("h2", {}, s.name),
+          $("div", { class: "meta" },
+            $("span", { class: s.ok ? "ok" : "bad" }, s.ok ? "Working" : "Failing"),
+            ` · ${s.count} items`,
+            s.last_success ? ` · last ok ${ago(s.last_success)}` : "",
+            s.error ? ` · ${s.error}` : ""
+          )
+        )
+      )
+    );
+  }
+}
+
+document.querySelectorAll("nav button").forEach(b => {
+  b.onclick = () => { tab = b.dataset.t; render(); scrollTo(0, 0); };
+});
+
+fetch("data/items.json", { cache: "no-cache" })
+  .then(r => r.json())
+  .then(d => {
+    D = d;
+    document.getElementById("upd").textContent = d.updated
+      ? `${d.items.length} items · updated ${ago(d.updated)}`
+      : "No data yet. Run the Update feeds workflow once.";
+    render();
+  })
+  .catch(() => {
+    document.getElementById("upd").textContent = "Could not load data. Check your connection.";
+    render();
+  });
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js").catch(() => {});
+}
+</script>
+</body>
+</html>
