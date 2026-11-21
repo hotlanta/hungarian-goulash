@@ -1,11 +1,10 @@
 {
- "updated": "2026-11-21T21:27:17.075494+00:00",
+ "updated": "2026-11-21T21:47:04.729519+00:00",
  "sources": [
   {
    "name": "Telex English",
-   "ok": false,
-   "count": 0,
-   "error": "<unknown>:2:1326: not well-formed (invalid token)"
+   "ok": true,
+   "count": 6
   },
   {
    "name": "Insight Hungary (444)",
@@ -31,12 +30,6 @@
    "name": "Hungarian Conservative",
    "ok": true,
    "count": 4
-  },
-  {
-   "name": "Hungarian Spectrum",
-   "ok": false,
-   "count": 0,
-   "error": "<unknown>:2:0: syntax error"
   },
   {
    "name": "VSquare",
@@ -301,6 +294,24 @@
    "summary": "Hackers working for Russian intelligence tried to steal data from a former deputy director of Hungary’s foreign intelligence service, former state secretaries, and from me. Putin’s hackers used similar tactics to break into Hungary’s foreign ministry under Péter Szijjártó.…"
   },
   {
+   "id": "https://telex.hu/english/2026/11/19/sikorski-poland-will-also-represent-hungary-at-russian-ukrainian-talks",
+   "title": "Sikorski: Poland will also represent Hungary at Russian-Ukrainian peace talks",
+   "link": "https://telex.hu/english/2026/11/19/sikorski-poland-will-also-represent-hungary-at-russian-ukrainian-talks",
+   "source": "Telex English",
+   "topic": "News",
+   "published": "2026-11-19T00:00:00+00:00",
+   "summary": ""
+  },
+  {
+   "id": "https://telex.hu/english/2026/11/19/viktor-orban-s-younger-brother-asked-ambassador-to-iraq-for-help-in-letter-signed-aron-orban-the-prime-minister-s-brother",
+   "title": "Viktor Orbán’s younger brother asked ambassador to Iraq for help in letter signed “Áron Orbán (the...",
+   "link": "https://telex.hu/english/2026/11/19/viktor-orban-s-younger-brother-asked-ambassador-to-iraq-for-help-in-letter-signed-aron-orban-the-prime-minister-s-brother",
+   "source": "Telex English",
+   "topic": "News",
+   "published": "2026-11-19T00:00:00+00:00",
+   "summary": ""
+  },
+  {
    "id": "https://vsquare.org/?p=31893",
    "title": "How Russian Propaganda Uses 1956 to Reach Hungary’s Far Right and Far Left",
    "link": "https://vsquare.org/how-russian-propaganda-uses-1956-to-reach-hungarys-far-right-and-far-left/",
@@ -347,6 +358,24 @@
    "summary": ""
   },
   {
+   "id": "https://telex.hu/english/2026/11/13/magyar-says-he-and-zelensky-could-meet-soon-in-transcarpathia",
+   "title": "The Hungarian Prime Minister gave a telephone interview to the public radio about the meetings he has had so far in Dublin at the EPC and EU summits, and also reflected on this week's events in...",
+   "link": "https://telex.hu/english/2026/11/13/magyar-says-he-and-zelensky-could-meet-soon-in-transcarpathia",
+   "source": "Telex English",
+   "topic": "News",
+   "published": "2026-11-13T00:00:00+00:00",
+   "summary": ""
+  },
+  {
+   "id": "https://telex.hu/english/2026/11/13/arte-europe-s-youthquake-disillusioned-with-politics",
+   "title": "The grievances range from education to housing to jobs, but have one common theme: aspirations for a better future.",
+   "link": "https://telex.hu/english/2026/11/13/arte-europe-s-youthquake-disillusioned-with-politics",
+   "source": "Telex English",
+   "topic": "News",
+   "published": "2026-11-13T00:00:00+00:00",
+   "summary": ""
+  },
+  {
    "id": "https://howtohungary.com/?p=2108",
    "title": "No Law Says Winter Tires in Hungary. Your Insurer Might.",
    "link": "https://howtohungary.com/2026/11/12/winter-tires-hungary/",
@@ -354,6 +383,15 @@
    "topic": "Expat life",
    "published": "2026-11-12T11:55:52+00:00",
    "summary": "Checked November 2026. Rules, dates and fines checked for the 2026/27 winter season. Every November, Andrew drives to Porsche Buda and comes home with a set of summer tires that move in with us until spring. I have opinions about this. Here is the short answer to the question…"
+  },
+  {
+   "id": "https://telex.hu/english/2026/11/12/hungary-to-ratify-instanbul-convention-magyar-announces",
+   "title": "The move is initiated by the Tisza Party and is part of a comprehensive package of measures aimed at curbing all forms of violence against women and ensuring the dignity of Hungarian women, the PM...",
+   "link": "https://telex.hu/english/2026/11/12/hungary-to-ratify-instanbul-convention-magyar-announces",
+   "source": "Telex English",
+   "topic": "News",
+   "published": "2026-11-12T00:00:00+00:00",
+   "summary": ""
   },
   {
    "id": "https://english.atlatszo.hu/?p=37273",
@@ -372,6 +410,15 @@
    "topic": "Investigative",
    "published": "2026-11-11T12:43:09+00:00",
    "summary": "Russian propaganda seeks to cater to Hungarian patriotism over the 1956 Revolution, while Russian media outlets portray the historic event as a fascist uprising and a \"color revolution\". Source"
+  },
+  {
+   "id": "https://telex.hu/english/2026/11/11/aron-orban-former-hungarian-pm-s-brother-arrested",
+   "title": "They are suspected of people smuggling carried out as part of a criminal conspiracy. The decision is not yet final.",
+   "link": "https://telex.hu/english/2026/11/11/aron-orban-former-hungarian-pm-s-brother-arrested",
+   "source": "Telex English",
+   "topic": "News",
+   "published": "2026-11-11T00:00:00+00:00",
+   "summary": ""
   },
   {
    "id": "https://insighthungary.444.hu/2026/11/06/orban-says-he-rejected-recruitment-during-communist-era-former-hungarian-pm-claims-he-saw-informant-reports-from-him",
