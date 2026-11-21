@@ -1,20 +1,75 @@
 name: Update feeds
+
 on:
-  schedule: [{cron: "17 */6 * * *"}]
+  schedule:
+    # Every 6 hours at :17 (UTC) – avoids top-of-hour congestion
+    - cron: "17 */6 * * *"
   workflow_dispatch:
-  push: {paths: ["feeds.yml", "manual.yml", "scripts/**"]}
-permissions: {contents: write}
+  push:
+    paths:
+      - "feeds.yml"
+      - "manual.yml"
+      - "scripts/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-feeds
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: {python-version: "3.12"}
-      - run: pip install feedparser pyyaml
-      - run: python scripts/fetch.py
-      - name: Commit changes
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
         run: |
-          git config user.name "feed-bot"; git config user.email "feed-bot@users.noreply.github.com"
+          python -m pip install --upgrade pip
+          pip install feedparser pyyaml
+
+      - name: Fetch feeds
+        id: fetch
+        continue-on-error: true
+        run: python scripts/fetch.py
+
+      - name: Commit updated data
+        if: steps.fetch.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add docs/data/items.json
-          git diff --cached --quiet || (git commit -m "Update feeds" && git push)
+          if git diff --cached --quiet; then
+            echo "No data changes"
+            exit 0
+          fi
+
+          git commit -m "Update feeds $(date -u +%F) (run #${{ github.run_number }})"
+
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash && git push; then
+              echo "Pushed on attempt ${attempt}"
+              break
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Failed to push after 3 attempts"
+              exit 1
+            fi
+            sleep $((attempt * 5))
+          done
+
+      - name: Fail if fetch reported hard failure
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo "Fetch script failed – check the 'Fetch feeds' step logs."
+          exit 1
