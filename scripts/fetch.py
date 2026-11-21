@@ -1,6 +1,6 @@
 """Fetch feeds.yml -> docs/data/items.json. Failed sources keep their previous items."""
 import json, re, html, time, datetime as dt, pathlib, yaml, feedparser
-import urllib.request
+import urllib.request, urllib.error
 from urllib.parse import urljoin
 from html.parser import HTMLParser
 
@@ -50,6 +50,31 @@ def scrape(f):
                     "published_parsed": time.strptime("/".join(m.groups()), "%Y/%m/%d") if m else None})
     return out
 
+HDRS = {"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9",
+        "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/html;q=0.8, */*;q=0.5"}
+
+def get_entries(f):
+    """RSS/Atom via browser-like headers; Substack falls back to its archive API. Errors say what failed."""
+    url, errs = f["url"], []
+    try:
+        d = feedparser.parse(urllib.request.urlopen(urllib.request.Request(url, headers=HDRS), timeout=30).read())
+        if d.entries: return d.entries
+        errs.append("feed had no entries")
+    except urllib.error.HTTPError as e: errs.append(f"feed HTTP {e.code}")
+    except Exception as e: errs.append("feed " + str(e)[:60])
+    m = re.match(r"https://([\w-]+\.substack\.com)/", url)
+    if m:
+        try:
+            j = json.loads(urllib.request.urlopen(urllib.request.Request(
+                f"https://{m.group(1)}/api/v1/archive?sort=new&limit=12", headers=HDRS), timeout=30).read())
+            out = [{"link": x["canonical_url"], "title": x.get("title", ""), "summary": x.get("subtitle") or x.get("description") or "",
+                    "published_parsed": time.strptime(x["post_date"][:10], "%Y-%m-%d")} for x in j if x.get("canonical_url") and x.get("post_date")]
+            if out: return out
+            errs.append("api empty")
+        except urllib.error.HTTPError as e: errs.append(f"api HTTP {e.code}")
+        except Exception as e: errs.append("api " + str(e)[:60])
+    raise ValueError("; ".join(errs))
+
 cfg = yaml.safe_load((ROOT / "feeds.yml").read_text())
 old = json.loads(OUT.read_text()) if OUT.exists() else {"items": []}
 cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=MAX_AGE_DAYS)
@@ -62,10 +87,7 @@ for f in cfg.get("feeds", []):
         if f.get("type") == "html":
             entries = scrape(f)
         else:
-            d = feedparser.parse(f["url"], agent=UA)
-            if d.bozo and not d.entries:
-                raise ValueError(str(d.get("bozo_exception", "feed unreadable")))
-            entries = d.entries
+            entries = get_entries(f)
         n = 0
         want = f.get("url_contains", "")
         for e in [x for x in entries if want in x.get("link", "")][:f.get("limit", cfg.get("default_limit", 4))]:
