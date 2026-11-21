@@ -3,13 +3,12 @@
 # url_contains: only keep entries whose link contains this text (used for Telex English).
 default_limit: 4
 feeds:
-  - {name: "Telex English", type: rss, topic: "News", url: "https://telex.hu/rss", url_contains: "/english/", limit: 6}
+  - {name: "Telex English", type: html, topic: "News", url: "https://telex.hu/english", link_pattern: "/(english|direkt36)/\\d{4}/\\d{2}/\\d{2}/", lede: true, limit: 6}
   - {name: "Insight Hungary (444)", type: html, topic: "News", url: "https://insighthungary.444.hu/"}
   - {name: "Átlátszó English", type: rss, topic: "Investigative", url: "https://english.atlatszo.hu/feed/"}
   - {name: "Daily News Hungary", type: rss, topic: "News", url: "https://dailynewshungary.com/feed/"}
   - {name: "Hungary Today", type: rss, topic: "News", url: "https://hungarytoday.hu/feed/"}
   - {name: "Hungarian Conservative", type: rss, topic: "Analysis", url: "https://www.hungarianconservative.com/feed/"}
-  - {name: "Hungarian Spectrum", type: rss, topic: "Analysis", url: "https://hungarianspectrum.org/feed/"}
   - {name: "VSquare", type: rss, topic: "Investigative", url: "https://vsquare.org/feed/"}
   - {name: "How To Hungary", type: rss, topic: "Expat life", url: "https://howtohungary.com/feed/"}
   - {name: "Budapest Times", type: rss, topic: "News", url: "https://www.budapesttimes.hu/feed/"}
