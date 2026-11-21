@@ -16,6 +16,7 @@ feeds:
   - {name: "Hungary Insider (Substack)", type: rss, topic: "Newsletters", url: "https://hungaryinsider.substack.com/feed"}
   - {name: "Hungarian Observer (Substack)", type: rss, topic: "Newsletters", url: "https://hungarianobserver.substack.com/feed"}
   - {name: "About Hungary (government)", type: rss, topic: "Government", url: "https://abouthungary.hu/rss", enabled: false}
+
 voices:   # link-only (Hungarian-language or no feed): use your browser's translate
   - {name: "444.hu", platform: Website, url: "https://444.hu", note: "Hungarian original. English edition is Insight Hungary in the feed"}
   - {name: "Telex (Hungarian)", platform: Website, url: "https://telex.hu", note: "Full Hungarian site"}
