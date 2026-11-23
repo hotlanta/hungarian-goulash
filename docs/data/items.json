@@ -1,74 +1,71 @@
 {
-  "updated": "2026-11-23T17:21:19.624703+00:00",
+  "updated": "2026-11-23T19:22:33.122661+00:00",
   "sources": [
     {
       "name": "Insight Hungary (444)",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T17:21:19.624703+00:00"
+      "last_success": "2026-11-23T19:22:33.122661+00:00"
     },
     {
       "name": "Átlátszó English",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T17:21:19.624703+00:00"
+      "last_success": "2026-11-23T19:22:33.122661+00:00"
     },
     {
       "name": "Daily News Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T17:21:19.624703+00:00"
+      "last_success": "2026-11-23T19:22:33.122661+00:00"
     },
     {
       "name": "Hungary Today",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T17:21:19.624703+00:00"
+      "last_success": "2026-11-23T19:22:33.122661+00:00"
     },
     {
       "name": "Hungarian Conservative",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T17:21:19.624703+00:00"
+      "last_success": "2026-11-23T19:22:33.122661+00:00"
     },
     {
       "name": "VSquare",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T17:21:19.624703+00:00"
+      "last_success": "2026-11-23T19:22:33.122661+00:00"
     },
     {
       "name": "How To Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T17:21:19.624703+00:00"
+      "last_success": "2026-11-23T19:22:33.122661+00:00"
     },
     {
       "name": "Budapest Times",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T17:21:19.624703+00:00"
+      "last_success": "2026-11-23T19:22:33.122661+00:00"
     },
     {
       "name": "Decoding Hungarian Politics (Substack)",
-      "ok": false,
-      "count": 0,
-      "error": "feed HTTP 403; api HTTP 403",
-      "last_success": null
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T19:22:33.122661+00:00"
     },
     {
       "name": "Hungary Insider (Substack)",
-      "ok": false,
-      "count": 0,
-      "error": "feed HTTP 403; api HTTP 403",
-      "last_success": null
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T19:22:33.122661+00:00"
     },
     {
       "name": "Hungarian Observer (Substack)",
-      "ok": false,
-      "count": 0,
-      "error": "feed HTTP 403; api HTTP 403",
-      "last_success": null
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T19:22:33.122661+00:00"
     },
     {
       "name": "About Hungary (government)",
@@ -79,8 +76,9 @@
     },
     {
       "name": "Telex English",
-      "ok": true,
-      "count": 6,
+      "ok": false,
+      "count": 8,
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://telex.hu/english\", waiting until \"networkidle\"\n",
       "last_success": "2026-11-23T17:21:19.624703+00:00"
     }
   ],
@@ -106,6 +104,24 @@
   ],
   "items": [
     {
+      "id": "https://dailynewshungary.com/?p=710275",
+      "title": "How much will one euro cost in Hungary in 2027? Here’s what analysts predict",
+      "link": "https://dailynewshungary.com/forint-euro-cost-in-2027-analysts/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-23T19:14:00+00:00",
+      "summary": "How much will one euro cost in Hungary next year? Analysts expect a relatively stable forint, but warn of potential risks: Continue reading: https://dailynewshungary.com/forint-euro-cost-in-2027-analysts/"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710272",
+      "title": "Hungary’s guest worker U-turn: What happens next for foreign employees?",
+      "link": "https://dailynewshungary.com/hungary-guest-worker-changes/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-23T17:54:00+00:00",
+      "summary": "Hungary restricted guest worker recruitment. Now employers and unions are divided over what comes next. What does this mean for foreign workers? Continue reading: https://dailynewshungary.com/hungary-guest-worker-changes/"
+    },
+    {
       "id": "https://dailynewshungary.com/?p=710269",
       "title": "Ryanair adds more than 70,000 extra seats on Hungarian routes for Christmas season",
       "link": "https://dailynewshungary.com/ryanair-70000-extra-seats-hungary-christmas/",
@@ -113,6 +129,24 @@
       "topic": "News",
       "published": "2026-11-23T16:34:00+00:00",
       "summary": "Ryanair is increasing capacity on flights to and from Hungary by more than 70,000 seats over the Christmas period. Continue reading: https://dailynewshungary.com/ryanair-70000-extra-seats-hungary-christmas/"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89419",
+      "title": "Nvidia Shares Jump 33% after Jensen Huang Unexpectedly Reinstated as CEO",
+      "link": "https://www.hungarianconservative.com/articles/current/nvidia-shares-jensen-huang-ceo-reinstated/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-23T15:45:00+00:00",
+      "summary": "Nvidia shares surged as much as 33 per cent on Monday after the company unexpectedly reinstated Jensen Huang as CEO, reversing his resignation amid a Chinese espionage controversy. The move triggered a broader AI rally across Wall Street, with Trump welcoming Huang’s return and…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89403",
+      "title": "Police Raid Lawyer Who Filed Indictment Against Tusk in Latest ‘Fake Alert’ Incident",
+      "link": "https://www.hungarianconservative.com/articles/current/poland-tusk-police-raid-fake-alert-intimidation-pis/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-23T15:30:32+00:00",
+      "summary": "Police were sent to lawyer Artur Wdowczyk’s home shortly after midnight over a suicide threat involving an 11-year-old daughter he does not have, two weeks after he filed a criminal indictment against Donald Tusk. Wdowczyk denounced it as ‘intimidation’, fitting into a string of…"
     },
     {
       "id": "https://hungarytoday.hu/?p=389570",
@@ -223,6 +257,15 @@
       "summary": "European diplomats were left missing the ‘old US’ after COP31 collapsed without a political declaration, as Brussels struggled to pressure Saudi Arabia and isolate the fossil-fuel bloc without Washington’s diplomatic weight. The summit ran nearly 50 hours overtime before…"
     },
     {
+      "id": "https://hungaryinsider.substack.com/p/hungarys-guest-worker-u-turn-what",
+      "title": "Hungary's guest-worker U-turn: What happens next?",
+      "link": "https://hungaryinsider.substack.com/p/hungarys-guest-worker-u-turn-what",
+      "source": "Hungary Insider (Substack)",
+      "topic": "Newsletters",
+      "published": "2026-11-23T09:02:15+00:00",
+      "summary": "Nearly six months after Hungary restricted guest-worker recruitment, employers and unions remain divided over what comes next."
+    },
+    {
       "id": "https://www.budapesttimes.hu/?p=42474",
       "title": "Ice ice baby: a full week of frost, snow, and bitter winds ahead",
       "link": "https://www.budapesttimes.hu/hungary/ice-ice-baby-a-full-week-of-frost-snow-and-bitter-winds-ahead/",
@@ -284,6 +327,15 @@
       "topic": "News",
       "published": "2026-11-21T16:35:00+00:00",
       "summary": "What's really happening in Hungary this week? From billions in EU funding to fresh political revelations, economic shifts and diplomatic developments, our latest briefing connects the dots. 📰 Read the full roundup and stay informed! Continue reading:…"
+    },
+    {
+      "id": "https://hungaryinsider.substack.com/p/hungary-weekly-briefing-eu-funds-6f0",
+      "title": "Hungary Weekly Briefing: EU funds, economic gains and Orbán’s controversial ties – 21 November 2026",
+      "link": "https://hungaryinsider.substack.com/p/hungary-weekly-briefing-eu-funds-6f0",
+      "source": "Hungary Insider (Substack)",
+      "topic": "Newsletters",
+      "published": "2026-11-21T16:02:59+00:00",
+      "summary": "The European Commission has moved towards releasing billions in recovery funding, while new defence financing has received approval."
     },
     {
       "id": "https://english.atlatszo.hu/?p=37291",
@@ -430,6 +482,24 @@
       "summary": "Radek Sikorski with her Hungarian counterpart in Budapest. A man accused of being involved in an ongoing constitutional coup d’état in his home country, and one who has been at the forefront of attacks against political leaders advocating for the sovereignty of European…"
     },
     {
+      "id": "https://hungaryinsider.substack.com/p/why-do-most-hungarians-support-tiszas",
+      "title": "Why do most Hungarians support Tisza’s policies if so few expect their lives to improve?",
+      "link": "https://hungaryinsider.substack.com/p/why-do-most-hungarians-support-tiszas",
+      "source": "Hungary Insider (Substack)",
+      "topic": "Newsletters",
+      "published": "2026-11-20T10:11:23+00:00",
+      "summary": "A curious new poll has revealed an apparent contradiction in Hungarian public opinion: most people consider the Tisza government’s measures fair, yet only a small minority expect them to improve their household finances."
+    },
+    {
+      "id": "https://hungarianobserver.substack.com/p/one-party-state",
+      "title": "One-Party State?",
+      "link": "https://hungarianobserver.substack.com/p/one-party-state",
+      "source": "Hungarian Observer (Substack)",
+      "topic": "Newsletters",
+      "published": "2026-11-20T05:01:33+00:00",
+      "summary": "Tisza is still incredibly popular – but will it last, and what will the consequences be? -asks Iván Merker."
+    },
+    {
       "id": "https://insighthungary.444.hu/2026/11/20/hungarian-authorities-discover-millions-in-hidden-cash-in-corruption-probe",
       "title": "Hungarian authorities discover millions in hidden cash in corruption probe",
       "link": "https://insighthungary.444.hu/2026/11/20/hungarian-authorities-discover-millions-in-hidden-cash-in-corruption-probe",
@@ -455,6 +525,15 @@
       "topic": "Expat life",
       "published": "2026-11-19T16:32:45+00:00",
       "summary": "Checked November 2026 against the official Budavári Advent programme for the 2026/27 season. The Budavár Advent Market opens on 27 November on Szentháromság Square, right beside Matthias Church, and runs until 3 January 2027. Expect wooden stalls of handmade gifts, mulled wine,…"
+    },
+    {
+      "id": "https://hungaryinsider.substack.com/p/lake-balaton-doesnt-close-in-winter",
+      "title": "Lake Balaton doesn’t close in winter: where to eat from November to March",
+      "link": "https://hungaryinsider.substack.com/p/lake-balaton-doesnt-close-in-winter",
+      "source": "Hungary Insider (Substack)",
+      "topic": "Newsletters",
+      "published": "2026-11-19T16:02:11+00:00",
+      "summary": "Discover 13 Lake Balaton restaurants and cafés open in winter, with opening hours, local specialities and practical tips."
     },
     {
       "id": "https://vsquare.org/?p=31927",
@@ -491,6 +570,15 @@
       "topic": "News",
       "published": "2026-11-19T00:00:00+00:00",
       "summary": ""
+    },
+    {
+      "id": "https://hungarianobserver.substack.com/p/fidesz-vs-spectacle-0-3",
+      "title": "Fidesz vs Spectacle: 0-3",
+      "link": "https://hungarianobserver.substack.com/p/fidesz-vs-spectacle-0-3",
+      "source": "Hungarian Observer (Substack)",
+      "topic": "Newsletters",
+      "published": "2026-11-17T16:43:02+00:00",
+      "summary": "Miklós Seszták’s billions buried in the forest are no greater corruption scandal than the ones we already knew about. But if Fidesz comms don’t change course, it will be a lethal blow for the party."
     },
     {
       "id": "https://vsquare.org/?p=31893",
@@ -537,6 +625,15 @@
       "topic": "News",
       "published": "2026-11-14T00:00:00+00:00",
       "summary": ""
+    },
+    {
+      "id": "https://hungarianobserver.substack.com/p/send-in-your-questions-for-our-next-746",
+      "title": "Send in your Questions for our Next Q&A!",
+      "link": "https://hungarianobserver.substack.com/p/send-in-your-questions-for-our-next-746",
+      "source": "Hungarian Observer (Substack)",
+      "topic": "Newsletters",
+      "published": "2026-11-13T05:00:58+00:00",
+      "summary": "Paid subscribers can send their questions for our November Q&A below:"
     },
     {
       "id": "https://telex.hu/english/2026/11/13/friends-with-benefits-szijjarto-coordinated-with-kremlin-about-russian-intelligence-agencies-discrediting-tisza-party-politicians",
@@ -609,6 +706,15 @@
       "topic": "News",
       "published": "2026-11-11T00:00:00+00:00",
       "summary": "They are suspected of people smuggling carried out as part of a criminal conspiracy. The decision is not yet final."
+    },
+    {
+      "id": "https://hungarianobserver.substack.com/p/the-release-of-the-agent-files-and",
+      "title": "The Release of the Agent Files and the Drawback of Symbolic Spectacle Politics",
+      "link": "https://hungarianobserver.substack.com/p/the-release-of-the-agent-files-and",
+      "source": "Hungarian Observer (Substack)",
+      "topic": "Newsletters",
+      "published": "2026-11-10T09:12:48+00:00",
+      "summary": "Spectacle and symbolism have been a key part of Tisza’s success. But prioritising them too much can also backfire, as last week’s events demonstrate. - writes Ábel Bede"
     },
     {
       "id": "https://insighthungary.444.hu/2026/11/06/orban-says-he-rejected-recruitment-during-communist-era-former-hungarian-pm-claims-he-saw-informant-reports-from-him",
