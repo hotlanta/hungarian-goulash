@@ -78,6 +78,23 @@ HDRS = {
     "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/html;q=0.8, */*;q=0.5",
 }
 
+def fetch_with_playwright(url: str) -> bytes:
+    """Use Chromium to fetch a URL (bypasses many simple bot blocks)."""
+    from playwright.sync_api import sync_playwright
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(
+            user_agent=UA,
+            locale="en-US",
+            viewport={"width": 1280, "height": 900},
+        )
+        page = context.new_page()
+        page.goto(url, wait_until="networkidle", timeout=45000)
+        page.wait_for_timeout(2000)          # extra time for any light challenge
+        content = page.content()
+        browser.close()
+        return content.encode("utf-8", "replace")
 
 def clean(s: str | None, n: int = 280) -> str:
     s = html.unescape(re.sub(r"<[^>]+>", " ", s or ""))
@@ -180,13 +197,12 @@ def scrape(f: dict) -> list:
         raise ValueError("no matching article links found (page structure may have changed)")
     return out
 
-
 def get_entries(f: dict) -> list:
-    """RSS/Atom first; Substack falls back to its public archive API."""
+    """RSS/Atom first; Substack falls back to Playwright when blocked."""
     url = f["url"]
     errs: list[str] = []
 
-    # 1. Try normal feed
+    # 1. Normal request
     try:
         data = _fetch(url)
         d = feedparser.parse(data)
@@ -198,14 +214,13 @@ def get_entries(f: dict) -> list:
     except Exception as e:
         errs.append("feed " + str(e)[:80])
 
-    # 2. Substack archive API fallback
+    # 2. Substack archive API fallback (kept for completeness)
     m = re.match(r"https://([\w-]+\.substack\.com)/", url)
     if m:
         api = f"https://{m.group(1)}/api/v1/archive?sort=new&limit=12"
         try:
             raw = _fetch(api)
             payload = json.loads(raw)
-            # Modern shape is {"posts": [...]}; older was a bare list
             posts = payload.get("posts") if isinstance(payload, dict) else payload
             if not isinstance(posts, list):
                 raise ValueError("unexpected API shape")
@@ -231,8 +246,18 @@ def get_entries(f: dict) -> list:
         except Exception as e:
             errs.append("api " + str(e)[:80])
 
-    raise ValueError("; ".join(errs) or "unknown error")
+        # 3. Playwright fallback for Substack (the important new part)
+        try:
+            print(f"  → Trying Playwright for {f['name']}...")
+            data = fetch_with_playwright(url)
+            d = feedparser.parse(data)
+            if d.entries:
+                return d.entries
+            errs.append("playwright feed had no entries")
+        except Exception as e:
+            errs.append("playwright " + str(e)[:80])
 
+    raise ValueError("; ".join(errs) or "unknown error")
 
 def main() -> None:
     cfg = yaml.safe_load((ROOT / "feeds.yml").read_text(encoding="utf-8"))
