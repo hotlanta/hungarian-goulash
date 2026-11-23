@@ -15,6 +15,55 @@ import urllib.error
 from urllib.parse import urljoin
 from html.parser import HTMLParser
 
+def scrape_playwright(f: dict) -> list:
+    """Render the page with Chromium to bypass simple Cloudflare challenges."""
+    from playwright.sync_api import sync_playwright
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(
+            user_agent=UA,
+            locale="en-US",
+            viewport={"width": 1280, "height": 900},
+        )
+        page = context.new_page()
+        page.goto(f["url"], wait_until="networkidle", timeout=45000)
+        # Give Cloudflare a moment if a challenge appears
+        page.wait_for_timeout(3000)
+        html = page.content()
+        browser.close()
+
+    # Re-use the existing HTML parser
+    p = _Links()
+    p.feed(html)
+    pat = re.compile(f.get("link_pattern", r"/\d{4}/\d{2}/\d{2}/"))
+    seen = {}
+    for l in p.links:
+        href = urljoin(f["url"], l["href"])
+        t = re.sub(r"\s+", " ", l["text"]).strip()
+        if pat.search(href) and len(t) >= 15 and t not in [x[1] for x in seen.get(href, [])]:
+            seen.setdefault(href, []).append((l["h"], t))
+    out = []
+    for href, texts in seen.items():
+        title = next((t for h, t in texts if h), texts[0][1])
+        rest = [t for _, t in texts if t != title]
+        m = re.search(r"/(\d{4})/(\d{2})/(\d{2})/", href)
+        published_parsed = None
+        if m:
+            try:
+                published_parsed = time.strptime("/".join(m.groups()), "%Y/%m/%d")
+            except ValueError:
+                pass
+        out.append({
+            "link": href,
+            "title": title,
+            "summary": rest[0] if (f.get("lede") and rest) else "",
+            "published_parsed": published_parsed,
+        })
+    if not out:
+        raise ValueError("no matching article links found after Playwright render")
+    return out
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs/data/items.json"
 MAX_AGE_DAYS = 45
@@ -204,9 +253,11 @@ def main() -> None:
             continue
         name = f["name"]
         try:
-            if f.get("type") == "html":
+            if f.get("type") == "playwright":
+                entries = scrape_playwright(f)
+            elif f.get("type") == "html":
                 entries = scrape(f)
-            else:
+           else:
                 entries = get_entries(f)
 
             n = 0
