@@ -1,443 +1,632 @@
 {
- "updated": "2026-11-21T22:25:00.979287+00:00",
- "sources": [
-  {
-   "name": "Telex English",
-   "ok": false,
-   "count": 6,
-   "error": "HTTP Error 403: Forbidden"
-  },
-  {
-   "name": "Insight Hungary (444)",
-   "ok": true,
-   "count": 4
-  },
-  {
-   "name": "Átlátszó English",
-   "ok": true,
-   "count": 4
-  },
-  {
-   "name": "Daily News Hungary",
-   "ok": true,
-   "count": 4
-  },
-  {
-   "name": "Hungary Today",
-   "ok": true,
-   "count": 4
-  },
-  {
-   "name": "Hungarian Conservative",
-   "ok": true,
-   "count": 4
-  },
-  {
-   "name": "VSquare",
-   "ok": true,
-   "count": 4
-  },
-  {
-   "name": "How To Hungary",
-   "ok": true,
-   "count": 4
-  },
-  {
-   "name": "Budapest Times",
-   "ok": true,
-   "count": 4
-  },
-  {
-   "name": "Decoding Hungarian Politics (Substack)",
-   "ok": false,
-   "count": 0,
-   "error": "feed HTTP 403; api HTTP 403"
-  },
-  {
-   "name": "Hungary Insider (Substack)",
-   "ok": false,
-   "count": 0,
-   "error": "feed HTTP 403; api HTTP 403"
-  },
-  {
-   "name": "Hungarian Observer (Substack)",
-   "ok": false,
-   "count": 0,
-   "error": "feed HTTP 403; api HTTP 403"
-  }
- ],
- "voices": [
-  {
-   "name": "444.hu",
-   "platform": "Website",
-   "url": "https://444.hu",
-   "note": "Hungarian original. English edition is Insight Hungary in the feed"
-  },
-  {
-   "name": "Telex (Hungarian)",
-   "platform": "Website",
-   "url": "https://telex.hu",
-   "note": "Full Hungarian site"
-  },
-  {
-   "name": "Átlátszó (Hungarian)",
-   "platform": "Website",
-   "url": "https://atlatszo.hu",
-   "note": "Investigative reporting, Hungarian original"
-  }
- ],
- "items": [
-  {
-   "id": "https://www.hungarianconservative.com/?p=89300",
-   "title": "Picking up the Pieces: Searching for a New Order on Hungary’s Right",
-   "link": "https://www.hungarianconservative.com/articles/politics/new-order-hungary-politics-right-election-fidesz-tisza/",
-   "source": "Hungarian Conservative",
-   "topic": "Analysis",
-   "published": "2026-11-21T17:00:00+00:00",
-   "summary": "‘After Kötcse, the uncertainty surrounding the future of the Hungarian right is no longer primarily about leadership: Orbán has returned to active politics and is trying to preserve Fidesz’s central position. The deeper uncertainty concerns the structure beneath him, as Fidesz…"
-  },
-  {
-   "id": "https://dailynewshungary.com/?p=710174",
-   "title": "Read the latest Hungary Insider Weekly Briefing: EU funds, economic gains and Orbán’s controversial ties",
-   "link": "https://dailynewshungary.com/hungary-insider-weekly-eu-funds-orban-economy/",
-   "source": "Daily News Hungary",
-   "topic": "News",
-   "published": "2026-11-21T16:35:00+00:00",
-   "summary": "What's really happening in Hungary this week? From billions in EU funding to fresh political revelations, economic shifts and diplomatic developments, our latest briefing connects the dots. 📰 Read the full roundup and stay informed! Continue reading:…"
-  },
-  {
-   "id": "https://english.atlatszo.hu/?p=37291",
-   "title": "Independent media outlets were reportedly blacklisted by government advertising agencies",
-   "link": "https://english.atlatszo.hu/2026/11/21/independent-media-outlets-were-reportedly-blacklisted-by-government-advertising-agencies/",
-   "source": "Átlátszó English",
-   "topic": "Investigative",
-   "published": "2026-11-21T13:11:40+00:00",
-   "summary": "Findings by Hungary's media regulator comfirms our earlier investigation into HUF 109.6 billion in government advertising expenditure, which revealed that 76 percent of the money went to government-aligned media companies. Source"
-  },
-  {
-   "id": "https://english.atlatszo.hu/?p=37286",
-   "title": "Tax authority investigates foundation linked to former Fidesz politician Sándor Lezsák",
-   "link": "https://english.atlatszo.hu/2026/11/21/tax-authority-investigates-foundation-linked-to-former-fidesz-politician-sandor-lezsak/",
-   "source": "Átlátszó English",
-   "topic": "Investigative",
-   "published": "2026-11-21T13:02:01+00:00",
-   "summary": "Authorities are conducting two investigations of the foundation that, received billions in public funding for a leisure and cultural complex. Source"
-  },
-  {
-   "id": "https://www.hungarianconservative.com/?p=89325",
-   "title": "US Streamer Sneako Under Fire for Whitewashing Taliban During ‘Propaganda’ Visit",
-   "link": "https://www.hungarianconservative.com/articles/current/sneako-whitewashing-taliban-afghanistan-womens-right-laura-loomer/",
-   "source": "Hungarian Conservative",
-   "topic": "Analysis",
-   "published": "2026-11-21T12:31:37+00:00",
-   "summary": "American streamer Sneako has sparked outrage after travelling to Afghanistan and dismissing reports of women’s repression as Western ‘propaganda’. His praise for the regime, mockery of feminists and interviews with senior Taliban figures have prompted calls from US activists for…"
-  },
-  {
-   "id": "https://dailynewshungary.com/?p=710163",
-   "title": "Hungary–China education cooperation strengthens as Chinese university delegation visits Budapest",
-   "link": "https://dailynewshungary.com/hungary-china-education-cooperation-budapest/",
-   "source": "Daily News Hungary",
-   "topic": "News",
-   "published": "2026-11-21T11:04:00+00:00",
-   "summary": "🇭🇺🇨🇳 Could closer university ties between Hungary and China open new doors for students and researchers? Discover the latest developments in Budapest! 🎓 Continue reading: https://dailynewshungary.com/hungary-china-education-cooperation-budapest/"
-  },
-  {
-   "id": "https://www.hungarianconservative.com/?p=88515",
-   "title": "Only Until 16 September, Then Prison — A Former Drug Dealer’s Journey from Addiction to Prevention",
-   "link": "https://www.hungarianconservative.com/articles/interview/former-drug-dealer-addiction-prevention/",
-   "source": "Hungarian Conservative",
-   "topic": "Analysis",
-   "published": "2026-11-21T09:00:00+00:00",
-   "summary": "‘The general perception is still that it’s “just a joint”…It makes you feel relaxed, laugh, and relieves stress—that’s true. But afterward, you’re completely out of it for three hours. Your thoughts go all over the place, and you end up talking complete nonsense. Many regular…"
-  },
-  {
-   "id": "https://hungarytoday.hu/?p=389454",
-   "title": "Best Christmas Rolls and Log Cake of 2026 Revealed",
-   "link": "https://hungarytoday.hu/best-christmas-rolls-and-log-cake-of-2026-revealed/",
-   "source": "Hungary Today",
-   "topic": "News",
-   "published": "2026-11-21T07:00:21+00:00",
-   "summary": "The winners of the “Bejgli of the Year” contest have been announced: REÖK Artisan Pastry Shop in Szeged won the Walnut Bejgli of the Year award, Major Pastry Shop in Budapest won the Poppy Seed Bejgli of the Year award, and in the gourmet category, Dinasztia Pastry Shop in…"
-  },
-  {
-   "id": "https://www.budapesttimes.hu/?p=42457",
-   "title": "Stereotypes out, curiosity in",
-   "link": "https://www.budapesttimes.hu/what-lies-beneath/stereotypes-out-curiosity-in/",
-   "source": "Budapest Times",
-   "topic": "News",
-   "published": "2026-11-21T06:10:09+00:00",
-   "summary": "You must be logged into the site to view this content."
-  },
-  {
-   "id": "https://www.budapesttimes.hu/?p=42455",
-   "title": "Tisza dives into Balaton rescue and pre-Christmas bill blitz",
-   "link": "https://www.budapesttimes.hu/hungary/tisza-dives-into-balaton-rescue-and-pre-christmas-bill-blitz/",
-   "source": "Budapest Times",
-   "topic": "News",
-   "published": "2026-11-21T06:04:33+00:00",
-   "summary": "You must be logged into the site to view this content."
-  },
-  {
-   "id": "https://www.budapesttimes.hu/?p=42453",
-   "title": "Brussels unlocks billions — but one stumble puts full payout at risk",
-   "link": "https://www.budapesttimes.hu/hungary/brussels-unlocks-billions-but-one-stumble-puts-full-payout-at-risk/",
-   "source": "Budapest Times",
-   "topic": "News",
-   "published": "2026-11-21T06:02:46+00:00",
-   "summary": "You must be logged into the site to view this content."
-  },
-  {
-   "id": "https://dailynewshungary.com/?p=710161",
-   "title": "Debrecen could face water shortages in summer 2027 as factories increase demand",
-   "link": "https://dailynewshungary.com/debrecen-water-shortage-2027-factory-demand/",
-   "source": "Daily News Hungary",
-   "topic": "News",
-   "published": "2026-11-21T05:34:00+00:00",
-   "summary": "Could the residents of Debrecen run out of water next summer? Continue reading: https://dailynewshungary.com/debrecen-water-shortage-2027-factory-demand/"
-  },
-  {
-   "id": "https://www.budapesttimes.hu/?p=42410",
-   "title": "Odder and curiouser: a tale of two translations",
-   "link": "https://www.budapesttimes.hu/books/odder-and-curiouser-a-tale-of-two-translations/",
-   "source": "Budapest Times",
-   "topic": "News",
-   "published": "2026-11-21T04:35:19+00:00",
-   "summary": "You must be logged into the site to view this content."
-  },
-  {
-   "id": "https://dailynewshungary.com/?p=710120",
-   "title": "Lake Balaton in winter? Here are 13 restaurants and cafés that stay open",
-   "link": "https://dailynewshungary.com/lake-balaton-in-winter-restaurant-cafe/",
-   "source": "Daily News Hungary",
-   "topic": "News",
-   "published": "2026-11-20T20:34:00+00:00",
-   "summary": "Lake Balaton isn't just a summer destination! Discover 13 restaurants and cafés that stay open throughout winter, from Siófok to Hévíz. Continue reading: https://dailynewshungary.com/lake-balaton-in-winter-restaurant-cafe/"
-  },
-  {
-   "id": "https://www.hungarianconservative.com/?p=89302",
-   "title": "Islam to Become World’s Largest Religion by 2035 as Christian Europe Shrinks",
-   "link": "https://www.hungarianconservative.com/articles/current/islam-christianity-pew-research-population-europe/",
-   "source": "Hungarian Conservative",
-   "topic": "Analysis",
-   "published": "2026-11-20T16:00:00+00:00",
-   "summary": "Islam is projected to overtake Christianity as the world’s largest religion by 2035, ending centuries of Christian demographic dominance, according to Pew. The shift will be especially dramatic in Europe, where the Christian population is forecast to fall by 181 million by 2070…"
-  },
-  {
-   "id": "https://hungarytoday.hu/?p=389502",
-   "title": "Budapest Castle District to Introduce Complete Airbnb Ban",
-   "link": "https://hungarytoday.hu/budapest-castle-district-to-introduce-complete-airbnb-ban/",
-   "source": "Hungary Today",
-   "topic": "News",
-   "published": "2026-11-20T14:30:23+00:00",
-   "summary": "The council of Budapest’s District I has adopted new regulations on short-term rentals, introducing a complete ban in the historic Castle District from January 1, 2028, while imposing additional restrictions on such accommodation elsewhere in the district. The regulation…"
-  },
-  {
-   "id": "https://hungarytoday.hu/?p=389493",
-   "title": "UEFA Punishes Ferencváros Over Fans’ Behaviour at AC Milan Match",
-   "link": "https://hungarytoday.hu/uefa-punishes-ferencvaros-over-fans-behaviour-at-ac-milan-match/",
-   "source": "Hungary Today",
-   "topic": "News",
-   "published": "2026-11-20T13:30:41+00:00",
-   "summary": "Ferencváros fans during the match against AC Milan on November 5 UEFA has fined Ferencváros €35,000 after the club’s supporters set off pyrotechnics during their Europa League clash with AC Milan in Milan two weeks ago. The 36-time Hungarian champions were sanctioned after fans…"
-  },
-  {
-   "id": "https://hungarytoday.hu/?p=389404",
-   "title": "Sikorski’s Visit to Budapest Unwittingly Exposes Alternative Explanations to the Fall of the Orbán Government",
-   "link": "https://hungarytoday.hu/sikorskis-visit-to-budapest-unwittingly-exposes-alternative-explanations-to-the-fall-of-the-orban-government/",
-   "source": "Hungary Today",
-   "topic": "News",
-   "published": "2026-11-20T12:30:49+00:00",
-   "summary": "Radek Sikorski with her Hungarian counterpart in Budapest. A man accused of being involved in an ongoing constitutional coup d’état in his home country, and one who has been at the forefront of attacks against political leaders advocating for the sovereignty of European…"
-  },
-  {
-   "id": "https://insighthungary.444.hu/2026/11/20/hungarian-authorities-discover-millions-in-hidden-cash-in-corruption-probe",
-   "title": "Hungarian authorities discover millions in hidden cash in corruption probe",
-   "link": "https://insighthungary.444.hu/2026/11/20/hungarian-authorities-discover-millions-in-hidden-cash-in-corruption-probe",
-   "source": "Insight Hungary (444)",
-   "topic": "News",
-   "published": "2026-11-20T00:00:00+00:00",
-   "summary": ""
-  },
-  {
-   "id": "https://vsquare.org/?p=31934",
-   "title": "Goulash: Russia Colluded with Orbán’s Regime; FSB Hackers Target Kremlin Critics",
-   "link": "https://vsquare.org/goulash-kremlin-collusion-with-orbans-regime-fsb-hackers-in-email-inboxes/",
-   "source": "VSquare",
-   "topic": "Investigative",
-   "published": "2026-11-19T17:47:21+00:00",
-   "summary": "Welcome back to Goulash, and greetings from New York, where the Committee to Protect Journalists invited me to a gala celebrating press freedom. We’ve got two spicy scoops in the pot this week: Hungary’s ex-foreign minister Péter Szijjártó’s diplomatic mail from Moscow and…"
-  },
-  {
-   "id": "https://howtohungary.com/?p=2127",
-   "title": "Budavár Advent Market Brings All of Europe Up the Hill",
-   "link": "https://howtohungary.com/2026/11/19/budavar-advent-market/",
-   "source": "How To Hungary",
-   "topic": "Expat life",
-   "published": "2026-11-19T16:32:45+00:00",
-   "summary": "Checked November 2026 against the official Budavári Advent programme for the 2026/27 season. The Budavár Advent Market opens on 27 November on Szentháromság Square, right beside Matthias Church, and runs until 3 January 2027. Expect wooden stalls of handmade gifts, mulled wine,…"
-  },
-  {
-   "id": "https://vsquare.org/?p=31927",
-   "title": "What an Election Can Change: Hungarians Trust Their Government, Slovaks Fear for Democracy",
-   "link": "https://vsquare.org/what-an-election-can-change-hungarians-trust-their-new-government-slovaks-fear-for-democracy/",
-   "source": "VSquare",
-   "topic": "Investigative",
-   "published": "2026-11-19T14:33:48+00:00",
-   "summary": "Katarína Klingová, a research lead at the Center for Democracy & Resilience at the GLOBSEC Policy Institute, spoke to VSquare about the 2026 report, which she co-authored. Artykuł What an Election Can Change: Hungarians Trust Their Government, Slovaks Fear for Democracy pochodzi…"
-  },
-  {
-   "id": "https://vsquare.org/?p=31914",
-   "title": "FSB Hackers Impersonated Hungary’s Ex-Foreign Minister to Target Kremlin Critics",
-   "link": "https://vsquare.org/fsb-hackers-impersonated-hungarys-ex-foreign-minister-to-target-kremlin-critics/",
-   "source": "VSquare",
-   "topic": "Investigative",
-   "published": "2026-11-19T01:30:21+00:00",
-   "summary": "Hackers working for Russian intelligence tried to steal data from a former deputy director of Hungary’s foreign intelligence service, former state secretaries, and from me. Putin’s hackers used similar tactics to break into Hungary’s foreign ministry under Péter Szijjártó.…"
-  },
-  {
-   "id": "https://telex.hu/english/2026/11/19/sikorski-poland-will-also-represent-hungary-at-russian-ukrainian-talks",
-   "title": "Sikorski: Poland will also represent Hungary at Russian-Ukrainian peace talks",
-   "link": "https://telex.hu/english/2026/11/19/sikorski-poland-will-also-represent-hungary-at-russian-ukrainian-talks",
-   "source": "Telex English",
-   "topic": "News",
-   "published": "2026-11-19T00:00:00+00:00",
-   "summary": ""
-  },
-  {
-   "id": "https://telex.hu/english/2026/11/19/viktor-orban-s-younger-brother-asked-ambassador-to-iraq-for-help-in-letter-signed-aron-orban-the-prime-minister-s-brother",
-   "title": "Viktor Orbán’s younger brother asked ambassador to Iraq for help in letter signed “Áron Orbán (the...",
-   "link": "https://telex.hu/english/2026/11/19/viktor-orban-s-younger-brother-asked-ambassador-to-iraq-for-help-in-letter-signed-aron-orban-the-prime-minister-s-brother",
-   "source": "Telex English",
-   "topic": "News",
-   "published": "2026-11-19T00:00:00+00:00",
-   "summary": ""
-  },
-  {
-   "id": "https://vsquare.org/?p=31893",
-   "title": "How Russian Propaganda Uses 1956 to Reach Hungary’s Far Right and Far Left",
-   "link": "https://vsquare.org/how-russian-propaganda-uses-1956-to-reach-hungarys-far-right-and-far-left/",
-   "source": "VSquare",
-   "topic": "Investigative",
-   "published": "2026-11-16T16:11:36+00:00",
-   "summary": "Seventy years after the Hungarian Revolution of 1956, Russian propaganda is promoting contradictory interpretations of the anti-Soviet uprising to different political audiences. Artykuł How Russian Propaganda Uses 1956 to Reach Hungary’s Far Right and Far Left pochodzi z serwisu…"
-  },
-  {
-   "id": "https://x.com/example/status/1",
-   "title": "Example: thread on docs-as-code",
-   "link": "https://x.com/example/status/1",
-   "source": "X post",
-   "topic": "Community",
-   "summary": "Why I saved it.",
-   "pinned": true,
-   "published": "2026-11-16T12:00:00+00:00"
-  },
-  {
-   "id": "https://howtohungary.com/?p=2102",
-   "title": "Buying Property in Budapest? Sellers Are Listening Again",
-   "link": "https://howtohungary.com/2026/11/15/buying-property-in-budapest/",
-   "source": "How To Hungary",
-   "topic": "Expat life",
-   "published": "2026-11-15T11:13:46+00:00",
-   "summary": "Posted November 2026. This post uses October 2026 data from ingatlan.com and Duna House, and covers the end of Otthon Start on 31 October. This summer, one of Andrea Kamondy’s Budapest listings drew multiple offers and a bidding war. By October, Budapest prices had stalled.…"
-  },
-  {
-   "id": "https://howtohungary.com/?p=2113",
-   "title": "Two Passports, One Lobster: Canada Comes to Budapest",
-   "link": "https://howtohungary.com/2026/11/14/canadian-lobster-dinner-budapest-2026/",
-   "source": "How To Hungary",
-   "topic": "Expat life",
-   "published": "2026-11-14T09:30:39+00:00",
-   "summary": "Last Saturday, Andrew and I joined around 200 people at the InterContinental Budapest for the 32nd Canadian Lobster Dinner, the biggest night of the year for the Canadian Chamber of Commerce in Hungary. Whole lobsters came in from Nova Scotia. The room was a proper mix of…"
-  },
-  {
-   "id": "https://insighthungary.444.hu/2026/11/14/hungary-to-introduce-womens-rights-reforms",
-   "title": "Hungary to introduce women's rights reforms",
-   "link": "https://insighthungary.444.hu/2026/11/14/hungary-to-introduce-womens-rights-reforms",
-   "source": "Insight Hungary (444)",
-   "topic": "News",
-   "published": "2026-11-14T00:00:00+00:00",
-   "summary": ""
-  },
-  {
-   "id": "https://telex.hu/english/2026/11/13/magyar-says-he-and-zelensky-could-meet-soon-in-transcarpathia",
-   "title": "Magyar says he and Zelensky spoke about meeting soon in Transcarpathia",
-   "link": "https://telex.hu/english/2026/11/13/magyar-says-he-and-zelensky-could-meet-soon-in-transcarpathia",
-   "source": "Telex English",
-   "topic": "News",
-   "published": "2026-11-13T00:00:00+00:00",
-   "summary": "The Hungarian Prime Minister gave a telephone interview to the public radio about the meetings he has had so far in Dublin at the EPC and EU summits, and also reflected on this week's events in..."
-  },
-  {
-   "id": "https://telex.hu/english/2026/11/13/arte-europe-s-youthquake-disillusioned-with-politics",
-   "title": "Arte: Europe's youthquake – disillusioned with politics?",
-   "link": "https://telex.hu/english/2026/11/13/arte-europe-s-youthquake-disillusioned-with-politics",
-   "source": "Telex English",
-   "topic": "News",
-   "published": "2026-11-13T00:00:00+00:00",
-   "summary": "The grievances range from education to housing to jobs, but have one common theme: aspirations for a better future."
-  },
-  {
-   "id": "https://howtohungary.com/?p=2108",
-   "title": "No Law Says Winter Tires in Hungary. Your Insurer Might.",
-   "link": "https://howtohungary.com/2026/11/12/winter-tires-hungary/",
-   "source": "How To Hungary",
-   "topic": "Expat life",
-   "published": "2026-11-12T11:55:52+00:00",
-   "summary": "Checked November 2026. Rules, dates and fines checked for the 2026/27 winter season. Every November, Andrew drives to Porsche Buda and comes home with a set of summer tires that move in with us until spring. I have opinions about this. Here is the short answer to the question…"
-  },
-  {
-   "id": "https://telex.hu/english/2026/11/12/hungary-to-ratify-instanbul-convention-magyar-announces",
-   "title": "Hungary to ratify Istanbul Convention, Magyar announces",
-   "link": "https://telex.hu/english/2026/11/12/hungary-to-ratify-instanbul-convention-magyar-announces",
-   "source": "Telex English",
-   "topic": "News",
-   "published": "2026-11-12T00:00:00+00:00",
-   "summary": "The move is initiated by the Tisza Party and is part of a comprehensive package of measures aimed at curbing all forms of violence against women and ensuring the dignity of Hungarian women, the PM..."
-  },
-  {
-   "id": "https://english.atlatszo.hu/?p=37273",
-   "title": "Former Hungarian military intelligence chief listed as communist-era secret service informant",
-   "link": "https://english.atlatszo.hu/2026/11/11/former-hungarian-military-intelligence-chief-listed-as-communist-era-secret-service-informant/",
-   "source": "Átlátszó English",
-   "topic": "Investigative",
-   "published": "2026-11-11T12:44:42+00:00",
-   "summary": "János Béres, the former director-general of Hungary’s Military National Security Service and former ambassador to Lithuania, has confirmed to Átlátszó that he appears in the recently opened communist-era state security archives. Source"
-  },
-  {
-   "id": "https://english.atlatszo.hu/?p=37267",
-   "title": "Russia’s propaganda reaches both far-right and far-left groups in Hungary through conflicting narratives about 1956",
-   "link": "https://english.atlatszo.hu/2026/11/11/russias-propaganda-reaches-both-far-right-and-far-left-groups-in-hungary-through-conflicting-narratives-about-1956/",
-   "source": "Átlátszó English",
-   "topic": "Investigative",
-   "published": "2026-11-11T12:43:09+00:00",
-   "summary": "Russian propaganda seeks to cater to Hungarian patriotism over the 1956 Revolution, while Russian media outlets portray the historic event as a fascist uprising and a \"color revolution\". Source"
-  },
-  {
-   "id": "https://telex.hu/english/2026/11/11/aron-orban-former-hungarian-pm-s-brother-arrested",
-   "title": "Áron Orbán, former Hungarian PM's brother arrested",
-   "link": "https://telex.hu/english/2026/11/11/aron-orban-former-hungarian-pm-s-brother-arrested",
-   "source": "Telex English",
-   "topic": "News",
-   "published": "2026-11-11T00:00:00+00:00",
-   "summary": "They are suspected of people smuggling carried out as part of a criminal conspiracy. The decision is not yet final."
-  },
-  {
-   "id": "https://insighthungary.444.hu/2026/11/06/orban-says-he-rejected-recruitment-during-communist-era-former-hungarian-pm-claims-he-saw-informant-reports-from-him",
-   "title": "Orban says he rejected recruitment during communist era, former Hungarian PM claims he saw informant reports from him",
-   "link": "https://insighthungary.444.hu/2026/11/06/orban-says-he-rejected-recruitment-during-communist-era-former-hungarian-pm-claims-he-saw-informant-reports-from-him",
-   "source": "Insight Hungary (444)",
-   "topic": "News",
-   "published": "2026-11-06T00:00:00+00:00",
-   "summary": ""
-  },
-  {
-   "id": "https://insighthungary.444.hu/2026/10/30/maga-pushes-for-orban-as-un-secretary-general-magyar-says-it-would-harm-the-organization",
-   "title": "MAGA pushes for Orban as UN Secretary General, Magyar says it would harm the organization",
-   "link": "https://insighthungary.444.hu/2026/10/30/maga-pushes-for-orban-as-un-secretary-general-magyar-says-it-would-harm-the-organization",
-   "source": "Insight Hungary (444)",
-   "topic": "News",
-   "published": "2026-10-30T00:00:00+00:00",
-   "summary": ""
-  }
- ]
+  "updated": "2026-11-23T17:21:19.624703+00:00",
+  "sources": [
+    {
+      "name": "Insight Hungary (444)",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T17:21:19.624703+00:00"
+    },
+    {
+      "name": "Átlátszó English",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T17:21:19.624703+00:00"
+    },
+    {
+      "name": "Daily News Hungary",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T17:21:19.624703+00:00"
+    },
+    {
+      "name": "Hungary Today",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T17:21:19.624703+00:00"
+    },
+    {
+      "name": "Hungarian Conservative",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T17:21:19.624703+00:00"
+    },
+    {
+      "name": "VSquare",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T17:21:19.624703+00:00"
+    },
+    {
+      "name": "How To Hungary",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T17:21:19.624703+00:00"
+    },
+    {
+      "name": "Budapest Times",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T17:21:19.624703+00:00"
+    },
+    {
+      "name": "Decoding Hungarian Politics (Substack)",
+      "ok": false,
+      "count": 0,
+      "error": "feed HTTP 403; api HTTP 403",
+      "last_success": null
+    },
+    {
+      "name": "Hungary Insider (Substack)",
+      "ok": false,
+      "count": 0,
+      "error": "feed HTTP 403; api HTTP 403",
+      "last_success": null
+    },
+    {
+      "name": "Hungarian Observer (Substack)",
+      "ok": false,
+      "count": 0,
+      "error": "feed HTTP 403; api HTTP 403",
+      "last_success": null
+    },
+    {
+      "name": "About Hungary (government)",
+      "ok": false,
+      "count": 0,
+      "error": "feed had no entries",
+      "last_success": null
+    },
+    {
+      "name": "Telex English",
+      "ok": true,
+      "count": 6,
+      "last_success": "2026-11-23T17:21:19.624703+00:00"
+    }
+  ],
+  "voices": [
+    {
+      "name": "444.hu",
+      "platform": "Website",
+      "url": "https://444.hu",
+      "note": "Hungarian original. English edition is Insight Hungary in the feed"
+    },
+    {
+      "name": "Telex (Hungarian)",
+      "platform": "Website",
+      "url": "https://telex.hu",
+      "note": "Full Hungarian site"
+    },
+    {
+      "name": "Átlátszó (Hungarian)",
+      "platform": "Website",
+      "url": "https://atlatszo.hu",
+      "note": "Investigative reporting, Hungarian original"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://dailynewshungary.com/?p=710269",
+      "title": "Ryanair adds more than 70,000 extra seats on Hungarian routes for Christmas season",
+      "link": "https://dailynewshungary.com/ryanair-70000-extra-seats-hungary-christmas/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-23T16:34:00+00:00",
+      "summary": "Ryanair is increasing capacity on flights to and from Hungary by more than 70,000 seats over the Christmas period. Continue reading: https://dailynewshungary.com/ryanair-70000-extra-seats-hungary-christmas/"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389570",
+      "title": "Hungarian Children’s Author Brings Her Popular Book Series to Shanghai",
+      "link": "https://hungarytoday.hu/hungarian-childrens-author-brings-her-popular-book-series-to-shanghai/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-23T15:20:19+00:00",
+      "summary": "The Hungarian Cultural Festival opened on Friday at Shanghai’s historic Park Hotel and ran until Sunday. The program featured storytelling sessions by Hungarian children’s author Erika Bartos, as well as an evening of traditional folk music and dance with performers from…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710238",
+      "title": "Hungarian university leads regional rankings of Central and Eastern European institutes’",
+      "link": "https://dailynewshungary.com/hungarian-university-leads-regional-ranking/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-23T15:14:00+00:00",
+      "summary": "A Hungarian university has been ranked the best higher education institution in Central and Eastern Europe in a new regional comparison published by the Times Higher Education. Continue reading: https://dailynewshungary.com/hungarian-university-leads-regional-ranking/"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389563",
+      "title": "First Snow of the Season May Be Just Days Away",
+      "link": "https://hungarytoday.hu/first-snow-of-the-season-may-be-just-days-away/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-23T14:33:53+00:00",
+      "summary": "Arctic air swept south into Central Europe on Monday, bringing a sharp drop in temperatures across the region. A new cyclone could bring the first significant snowfall to Hungary from Wednesday, though forecasters remain uncertain about its path and which parts of the country…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89398",
+      "title": "Italy’s Ruling Party Proposes Paint to Identify Violent Protesters",
+      "link": "https://www.hungarianconservative.com/articles/current/italy-ruling-party-indelible-paint-violent-protesters/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-23T14:00:00+00:00",
+      "summary": "Italy’s ruling Brothers of Italy party has proposed equipping police with non-toxic, indelible marking substances to identify demonstrators who attack officers or damage property. The post Italy’s Ruling Party Proposes Paint to Identify Violent Protesters appeared first on…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710216",
+      "title": "First widespread snowfall could arrive in Hungary this week: Here’s where to expect the most",
+      "link": "https://dailynewshungary.com/first-widespread-snowfall-hungary-winter/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-23T13:54:00+00:00",
+      "summary": "Hungary could see its first more widespread snowfall of the season this week. Continue reading: https://dailynewshungary.com/first-widespread-snowfall-hungary-winter/"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389556",
+      "title": "“Dramatically Bad Decision”: Government Ends Motorway Concession Deal",
+      "link": "https://hungarytoday.hu/dramatically-bad-decision-government-ends-motorway-concession-deal/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-23T13:30:25+00:00",
+      "summary": "The secretariat of former Prime Minister Viktor Orbán has sharply criticized the termination of Hungary’s motorway concession agreement, calling it a “dramatically bad decision.” They warned that it will set back infrastructure development and undermine efforts to improve…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89383",
+      "title": "Muslim Streamer Sneako Claims FBI Interrogation, Phone Seizure after Taliban Visit",
+      "link": "https://www.hungarianconservative.com/articles/culture_society/sneako-fbi-interrogation-phone-seizure-taliban-loomer/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-23T13:00:00+00:00",
+      "summary": "American streamer Sneako complained that he was interrogated for eight hours and had his phone and other electronic devices seized while returning from his controversial Afghanistan visit. The incident came days after activist Laura Loomer reported him to US authorities over his…"
+    },
+    {
+      "id": "https://howtohungary.com/?p=2135",
+      "title": "Balaton Waterfront Property Just Got a New First Bidder",
+      "link": "https://howtohungary.com/2026/11/23/balaton-waterfront-property/",
+      "source": "How To Hungary",
+      "topic": "Expat life",
+      "published": "2026-11-23T12:41:21+00:00",
+      "summary": "Checked 23 November 2026 against the bill text. Parliament has not voted, and the details may still change. I am writing this from our winehouse in the Balaton Highlands, with a cold north-westerly coming over the hills and the lake a grey line below the vineyards. The news fits…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710212",
+      "title": "Historic: Hungarian PM Magyar to visit Ukraine’s Transcarpathia region",
+      "link": "https://dailynewshungary.com/pm-magyar-to-visit-ukraine-transcarpathia/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-23T12:34:00+00:00",
+      "summary": "Péter Magyar plans to visit Transcarpathia, pledging support for ethnic Hungarians and Ukraine. Continue reading: https://dailynewshungary.com/pm-magyar-to-visit-ukraine-transcarpathia/"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389534",
+      "title": "16-Meter Christmas Tree Takes Its Place in Front of Parliament",
+      "link": "https://hungarytoday.hu/16-meter-christmas-tree-takes-its-place-in-front-of-parliament/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-23T12:30:01+00:00",
+      "summary": "Budapest’s Kossuth Square will once again be home to a special Christmas tree this year, as preparations for the festive season get underway. The towering fir will stand in front of Parliament from the first Sunday of Advent until Epiphany, serving as one of the capital’s main…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89356",
+      "title": "Two Standards of Religious Freedom? — Europe’s Blind Spot on Anti-Christian Hatred",
+      "link": "https://www.hungarianconservative.com/articles/current/religious-freedom-europe-anti-christian-hatred/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-23T12:00:00+00:00",
+      "summary": "‘In response to a 2022 parliamentary question from MEP Jean-Paul Garraud on the rise of anti-Christian hate crimes, the EU Commission stated that it had no plans for a specific strategy on “Christophobia” or to appoint a dedicated coordinator on the issue.’ The post Two…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89358",
+      "title": "Europe Misses the ‘Old US’ as COP31 Collapses over EU–Saudi Arabia Deadlock",
+      "link": "https://www.hungarianconservative.com/articles/current/cop31-summit-collapse-climate-change-eu-saudi-arabia/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-23T10:43:27+00:00",
+      "summary": "European diplomats were left missing the ‘old US’ after COP31 collapsed without a political declaration, as Brussels struggled to pressure Saudi Arabia and isolate the fossil-fuel bloc without Washington’s diplomatic weight. The summit ran nearly 50 hours overtime before…"
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42474",
+      "title": "Ice ice baby: a full week of frost, snow, and bitter winds ahead",
+      "link": "https://www.budapesttimes.hu/hungary/ice-ice-baby-a-full-week-of-frost-snow-and-bitter-winds-ahead/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-23T05:06:27+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42472",
+      "title": "EU clears €3bn in energy and development funds for December disbursement",
+      "link": "https://www.budapesttimes.hu/hungary/eu-clears-e3bn-in-energy-and-development-funds-for-december-disbursement/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-23T05:04:53+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42470",
+      "title": "Government launches 120bn-forint pothole repair programme",
+      "link": "https://www.budapesttimes.hu/hungary/government-launches-120bn-forint-pothole-repair-programme/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-23T05:03:52+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/23/magyar-expresses-solidarity-with-ukrainian-nation-s-unprecedented-struggle-for-survival",
+      "title": "Magyar expresses solidarity with Ukrainian nation's 'unprecedented struggle for survival'",
+      "link": "https://telex.hu/english/2026/11/23/magyar-expresses-solidarity-with-ukrainian-nation-s-unprecedented-struggle-for-survival",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-23T00:00:00+00:00",
+      "summary": ""
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42467",
+      "title": "A reservoir unused for 17 years is finally open — the government calls it historic",
+      "link": "https://www.budapesttimes.hu/hungary/a-reservoir-unused-for-17-years-is-finally-open-the-government-calls-it-historic/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-22T05:17:19+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89300",
+      "title": "Picking up the Pieces: Searching for a New Order on Hungary’s Right",
+      "link": "https://www.hungarianconservative.com/articles/politics/new-order-hungary-politics-right-election-fidesz-tisza/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-21T17:00:00+00:00",
+      "summary": "‘After Kötcse, the uncertainty surrounding the future of the Hungarian right is no longer primarily about leadership: Orbán has returned to active politics and is trying to preserve Fidesz’s central position. The deeper uncertainty concerns the structure beneath him, as Fidesz…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710174",
+      "title": "Read the latest Hungary Insider Weekly Briefing: EU funds, economic gains and Orbán’s controversial ties",
+      "link": "https://dailynewshungary.com/hungary-insider-weekly-eu-funds-orban-economy/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-21T16:35:00+00:00",
+      "summary": "What's really happening in Hungary this week? From billions in EU funding to fresh political revelations, economic shifts and diplomatic developments, our latest briefing connects the dots. 📰 Read the full roundup and stay informed! Continue reading:…"
+    },
+    {
+      "id": "https://english.atlatszo.hu/?p=37291",
+      "title": "Independent media outlets were reportedly blacklisted by government advertising agencies",
+      "link": "https://english.atlatszo.hu/2026/11/21/independent-media-outlets-were-reportedly-blacklisted-by-government-advertising-agencies/",
+      "source": "Átlátszó English",
+      "topic": "Investigative",
+      "published": "2026-11-21T13:11:40+00:00",
+      "summary": "Findings by Hungary's media regulator comfirms our earlier investigation into HUF 109.6 billion in government advertising expenditure, which revealed that 76 percent of the money went to government-aligned media companies. Source"
+    },
+    {
+      "id": "https://english.atlatszo.hu/?p=37286",
+      "title": "Tax authority investigates foundation linked to former Fidesz politician Sándor Lezsák",
+      "link": "https://english.atlatszo.hu/2026/11/21/tax-authority-investigates-foundation-linked-to-former-fidesz-politician-sandor-lezsak/",
+      "source": "Átlátszó English",
+      "topic": "Investigative",
+      "published": "2026-11-21T13:02:01+00:00",
+      "summary": "Authorities are conducting two investigations of the foundation that, received billions in public funding for a leisure and cultural complex. Source"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89325",
+      "title": "US Streamer Sneako Under Fire for Whitewashing Taliban During ‘Propaganda’ Visit",
+      "link": "https://www.hungarianconservative.com/articles/current/sneako-whitewashing-taliban-afghanistan-womens-right-laura-loomer/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-21T12:31:37+00:00",
+      "summary": "American streamer Sneako has sparked outrage after travelling to Afghanistan and dismissing reports of women’s repression as Western ‘propaganda’. His praise for the regime, mockery of feminists and interviews with senior Taliban figures have prompted calls from US activists for…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710163",
+      "title": "Hungary–China education cooperation strengthens as Chinese university delegation visits Budapest",
+      "link": "https://dailynewshungary.com/hungary-china-education-cooperation-budapest/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-21T11:04:00+00:00",
+      "summary": "🇭🇺🇨🇳 Could closer university ties between Hungary and China open new doors for students and researchers? Discover the latest developments in Budapest! 🎓 Continue reading: https://dailynewshungary.com/hungary-china-education-cooperation-budapest/"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=88515",
+      "title": "Only Until 16 September, Then Prison — A Former Drug Dealer’s Journey from Addiction to Prevention",
+      "link": "https://www.hungarianconservative.com/articles/interview/former-drug-dealer-addiction-prevention/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-21T09:00:00+00:00",
+      "summary": "‘The general perception is still that it’s “just a joint”…It makes you feel relaxed, laugh, and relieves stress—that’s true. But afterward, you’re completely out of it for three hours. Your thoughts go all over the place, and you end up talking complete nonsense. Many regular…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389454",
+      "title": "Best Christmas Rolls and Log Cake of 2026 Revealed",
+      "link": "https://hungarytoday.hu/best-christmas-rolls-and-log-cake-of-2026-revealed/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-21T07:00:21+00:00",
+      "summary": "The winners of the “Bejgli of the Year” contest have been announced: REÖK Artisan Pastry Shop in Szeged won the Walnut Bejgli of the Year award, Major Pastry Shop in Budapest won the Poppy Seed Bejgli of the Year award, and in the gourmet category, Dinasztia Pastry Shop in…"
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42457",
+      "title": "Stereotypes out, curiosity in",
+      "link": "https://www.budapesttimes.hu/what-lies-beneath/stereotypes-out-curiosity-in/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-21T06:10:09+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42455",
+      "title": "Tisza dives into Balaton rescue and pre-Christmas bill blitz",
+      "link": "https://www.budapesttimes.hu/hungary/tisza-dives-into-balaton-rescue-and-pre-christmas-bill-blitz/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-21T06:04:33+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42453",
+      "title": "Brussels unlocks billions — but one stumble puts full payout at risk",
+      "link": "https://www.budapesttimes.hu/hungary/brussels-unlocks-billions-but-one-stumble-puts-full-payout-at-risk/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-21T06:02:46+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710161",
+      "title": "Debrecen could face water shortages in summer 2027 as factories increase demand",
+      "link": "https://dailynewshungary.com/debrecen-water-shortage-2027-factory-demand/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-21T05:34:00+00:00",
+      "summary": "Could the residents of Debrecen run out of water next summer? Continue reading: https://dailynewshungary.com/debrecen-water-shortage-2027-factory-demand/"
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42410",
+      "title": "Odder and curiouser: a tale of two translations",
+      "link": "https://www.budapesttimes.hu/books/odder-and-curiouser-a-tale-of-two-translations/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-21T04:35:19+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710120",
+      "title": "Lake Balaton in winter? Here are 13 restaurants and cafés that stay open",
+      "link": "https://dailynewshungary.com/lake-balaton-in-winter-restaurant-cafe/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-20T20:34:00+00:00",
+      "summary": "Lake Balaton isn't just a summer destination! Discover 13 restaurants and cafés that stay open throughout winter, from Siófok to Hévíz. Continue reading: https://dailynewshungary.com/lake-balaton-in-winter-restaurant-cafe/"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89302",
+      "title": "Islam to Become World’s Largest Religion by 2035 as Christian Europe Shrinks",
+      "link": "https://www.hungarianconservative.com/articles/current/islam-christianity-pew-research-population-europe/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-20T16:00:00+00:00",
+      "summary": "Islam is projected to overtake Christianity as the world’s largest religion by 2035, ending centuries of Christian demographic dominance, according to Pew. The shift will be especially dramatic in Europe, where the Christian population is forecast to fall by 181 million by 2070…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389502",
+      "title": "Budapest Castle District to Introduce Complete Airbnb Ban",
+      "link": "https://hungarytoday.hu/budapest-castle-district-to-introduce-complete-airbnb-ban/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-20T14:30:23+00:00",
+      "summary": "The council of Budapest’s District I has adopted new regulations on short-term rentals, introducing a complete ban in the historic Castle District from January 1, 2028, while imposing additional restrictions on such accommodation elsewhere in the district. The regulation…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389493",
+      "title": "UEFA Punishes Ferencváros Over Fans’ Behaviour at AC Milan Match",
+      "link": "https://hungarytoday.hu/uefa-punishes-ferencvaros-over-fans-behaviour-at-ac-milan-match/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-20T13:30:41+00:00",
+      "summary": "Ferencváros fans during the match against AC Milan on November 5 UEFA has fined Ferencváros €35,000 after the club’s supporters set off pyrotechnics during their Europa League clash with AC Milan in Milan two weeks ago. The 36-time Hungarian champions were sanctioned after fans…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389404",
+      "title": "Sikorski’s Visit to Budapest Unwittingly Exposes Alternative Explanations to the Fall of the Orbán Government",
+      "link": "https://hungarytoday.hu/sikorskis-visit-to-budapest-unwittingly-exposes-alternative-explanations-to-the-fall-of-the-orban-government/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-20T12:30:49+00:00",
+      "summary": "Radek Sikorski with her Hungarian counterpart in Budapest. A man accused of being involved in an ongoing constitutional coup d’état in his home country, and one who has been at the forefront of attacks against political leaders advocating for the sovereignty of European…"
+    },
+    {
+      "id": "https://insighthungary.444.hu/2026/11/20/hungarian-authorities-discover-millions-in-hidden-cash-in-corruption-probe",
+      "title": "Hungarian authorities discover millions in hidden cash in corruption probe",
+      "link": "https://insighthungary.444.hu/2026/11/20/hungarian-authorities-discover-millions-in-hidden-cash-in-corruption-probe",
+      "source": "Insight Hungary (444)",
+      "topic": "News",
+      "published": "2026-11-20T00:00:00+00:00",
+      "summary": ""
+    },
+    {
+      "id": "https://vsquare.org/?p=31934",
+      "title": "Goulash: Russia Colluded with Orbán’s Regime; FSB Hackers Target Kremlin Critics",
+      "link": "https://vsquare.org/goulash-kremlin-collusion-with-orbans-regime-fsb-hackers-in-email-inboxes/",
+      "source": "VSquare",
+      "topic": "Investigative",
+      "published": "2026-11-19T17:47:21+00:00",
+      "summary": "Welcome back to Goulash, and greetings from New York, where the Committee to Protect Journalists invited me to a gala celebrating press freedom. We’ve got two spicy scoops in the pot this week: Hungary’s ex-foreign minister Péter Szijjártó’s diplomatic mail from Moscow and…"
+    },
+    {
+      "id": "https://howtohungary.com/?p=2127",
+      "title": "Budavár Advent Market Brings All of Europe Up the Hill",
+      "link": "https://howtohungary.com/2026/11/19/budavar-advent-market/",
+      "source": "How To Hungary",
+      "topic": "Expat life",
+      "published": "2026-11-19T16:32:45+00:00",
+      "summary": "Checked November 2026 against the official Budavári Advent programme for the 2026/27 season. The Budavár Advent Market opens on 27 November on Szentháromság Square, right beside Matthias Church, and runs until 3 January 2027. Expect wooden stalls of handmade gifts, mulled wine,…"
+    },
+    {
+      "id": "https://vsquare.org/?p=31927",
+      "title": "What an Election Can Change: Hungarians Trust Their Government, Slovaks Fear for Democracy",
+      "link": "https://vsquare.org/what-an-election-can-change-hungarians-trust-their-new-government-slovaks-fear-for-democracy/",
+      "source": "VSquare",
+      "topic": "Investigative",
+      "published": "2026-11-19T14:33:48+00:00",
+      "summary": "Katarína Klingová, a research lead at the Center for Democracy & Resilience at the GLOBSEC Policy Institute, spoke to VSquare about the 2026 report, which she co-authored. Artykuł What an Election Can Change: Hungarians Trust Their Government, Slovaks Fear for Democracy pochodzi…"
+    },
+    {
+      "id": "https://vsquare.org/?p=31914",
+      "title": "FSB Hackers Impersonated Hungary’s Ex-Foreign Minister to Target Kremlin Critics",
+      "link": "https://vsquare.org/fsb-hackers-impersonated-hungarys-ex-foreign-minister-to-target-kremlin-critics/",
+      "source": "VSquare",
+      "topic": "Investigative",
+      "published": "2026-11-19T01:30:21+00:00",
+      "summary": "Hackers working for Russian intelligence tried to steal data from a former deputy director of Hungary’s foreign intelligence service, former state secretaries, and from me. Putin’s hackers used similar tactics to break into Hungary’s foreign ministry under Péter Szijjártó.…"
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/19/sikorski-poland-will-also-represent-hungary-at-russian-ukrainian-talks",
+      "title": "Sikorski: Poland will also represent Hungary at Russian-Ukrainian peace talks",
+      "link": "https://telex.hu/english/2026/11/19/sikorski-poland-will-also-represent-hungary-at-russian-ukrainian-talks",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": ""
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/19/viktor-orban-s-younger-brother-asked-ambassador-to-iraq-for-help-in-letter-signed-aron-orban-the-prime-minister-s-brother",
+      "title": "Viktor Orbán’s younger brother asked ambassador to Iraq for help in letter signed “Áron Orbán (the...",
+      "link": "https://telex.hu/english/2026/11/19/viktor-orban-s-younger-brother-asked-ambassador-to-iraq-for-help-in-letter-signed-aron-orban-the-prime-minister-s-brother",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": ""
+    },
+    {
+      "id": "https://vsquare.org/?p=31893",
+      "title": "How Russian Propaganda Uses 1956 to Reach Hungary’s Far Right and Far Left",
+      "link": "https://vsquare.org/how-russian-propaganda-uses-1956-to-reach-hungarys-far-right-and-far-left/",
+      "source": "VSquare",
+      "topic": "Investigative",
+      "published": "2026-11-16T16:11:36+00:00",
+      "summary": "Seventy years after the Hungarian Revolution of 1956, Russian propaganda is promoting contradictory interpretations of the anti-Soviet uprising to different political audiences. Artykuł How Russian Propaganda Uses 1956 to Reach Hungary’s Far Right and Far Left pochodzi z serwisu…"
+    },
+    {
+      "id": "https://x.com/example/status/1",
+      "title": "Example: thread on docs-as-code",
+      "link": "https://x.com/example/status/1",
+      "source": "X post",
+      "topic": "Community",
+      "summary": "Why I saved it.",
+      "pinned": true,
+      "published": "2026-11-16T12:00:00+00:00"
+    },
+    {
+      "id": "https://howtohungary.com/?p=2102",
+      "title": "Buying Property in Budapest? Sellers Are Listening Again",
+      "link": "https://howtohungary.com/2026/11/15/buying-property-in-budapest/",
+      "source": "How To Hungary",
+      "topic": "Expat life",
+      "published": "2026-11-15T11:13:46+00:00",
+      "summary": "Posted November 2026. This post uses October 2026 data from ingatlan.com and Duna House, and covers the end of Otthon Start on 31 October. This summer, one of Andrea Kamondy’s Budapest listings drew multiple offers and a bidding war. By October, Budapest prices had stalled.…"
+    },
+    {
+      "id": "https://howtohungary.com/?p=2113",
+      "title": "Two Passports, One Lobster: Canada Comes to Budapest",
+      "link": "https://howtohungary.com/2026/11/14/canadian-lobster-dinner-budapest-2026/",
+      "source": "How To Hungary",
+      "topic": "Expat life",
+      "published": "2026-11-14T09:30:39+00:00",
+      "summary": "Last Saturday, Andrew and I joined around 200 people at the InterContinental Budapest for the 32nd Canadian Lobster Dinner, the biggest night of the year for the Canadian Chamber of Commerce in Hungary. Whole lobsters came in from Nova Scotia. The room was a proper mix of…"
+    },
+    {
+      "id": "https://insighthungary.444.hu/2026/11/14/hungary-to-introduce-womens-rights-reforms",
+      "title": "Hungary to introduce women's rights reforms",
+      "link": "https://insighthungary.444.hu/2026/11/14/hungary-to-introduce-womens-rights-reforms",
+      "source": "Insight Hungary (444)",
+      "topic": "News",
+      "published": "2026-11-14T00:00:00+00:00",
+      "summary": ""
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/13/friends-with-benefits-szijjarto-coordinated-with-kremlin-about-russian-intelligence-agencies-discrediting-tisza-party-politicians",
+      "title": "Friends with benefits: Szijjártó coordinated with Kremlin about Russian agencies discrediting...",
+      "link": "https://telex.hu/english/2026/11/13/friends-with-benefits-szijjarto-coordinated-with-kremlin-about-russian-intelligence-agencies-discrediting-tisza-party-politicians",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-13T00:00:00+00:00",
+      "summary": "In the lead-up to this year's Hungarian elections, documents detailing the efforts of the Russian intelligence agencies to keep Fidesz in power were delivered from Moscow to the former Hungarian FM..."
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/13/magyar-says-he-and-zelensky-could-meet-soon-in-transcarpathia",
+      "title": "Magyar says he and Zelensky spoke about meeting soon in Transcarpathia",
+      "link": "https://telex.hu/english/2026/11/13/magyar-says-he-and-zelensky-could-meet-soon-in-transcarpathia",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-13T00:00:00+00:00",
+      "summary": "The Hungarian Prime Minister gave a telephone interview to the public radio about the meetings he has had so far in Dublin at the EPC and EU summits, and also reflected on this week's events in..."
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/13/arte-europe-s-youthquake-disillusioned-with-politics",
+      "title": "Arte: Europe's youthquake – disillusioned with politics?",
+      "link": "https://telex.hu/english/2026/11/13/arte-europe-s-youthquake-disillusioned-with-politics",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-13T00:00:00+00:00",
+      "summary": "The grievances range from education to housing to jobs, but have one common theme: aspirations for a better future."
+    },
+    {
+      "id": "https://howtohungary.com/?p=2108",
+      "title": "No Law Says Winter Tires in Hungary. Your Insurer Might.",
+      "link": "https://howtohungary.com/2026/11/12/winter-tires-hungary/",
+      "source": "How To Hungary",
+      "topic": "Expat life",
+      "published": "2026-11-12T11:55:52+00:00",
+      "summary": "Checked November 2026. Rules, dates and fines checked for the 2026/27 winter season. Every November, Andrew drives to Porsche Buda and comes home with a set of summer tires that move in with us until spring. I have opinions about this. Here is the short answer to the question…"
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/12/hungary-to-ratify-instanbul-convention-magyar-announces",
+      "title": "Hungary to ratify Istanbul Convention, Magyar announces",
+      "link": "https://telex.hu/english/2026/11/12/hungary-to-ratify-instanbul-convention-magyar-announces",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-12T00:00:00+00:00",
+      "summary": "The move is initiated by the Tisza Party and is part of a comprehensive package of measures aimed at curbing all forms of violence against women and ensuring the dignity of Hungarian women, the PM..."
+    },
+    {
+      "id": "https://english.atlatszo.hu/?p=37273",
+      "title": "Former Hungarian military intelligence chief listed as communist-era secret service informant",
+      "link": "https://english.atlatszo.hu/2026/11/11/former-hungarian-military-intelligence-chief-listed-as-communist-era-secret-service-informant/",
+      "source": "Átlátszó English",
+      "topic": "Investigative",
+      "published": "2026-11-11T12:44:42+00:00",
+      "summary": "János Béres, the former director-general of Hungary’s Military National Security Service and former ambassador to Lithuania, has confirmed to Átlátszó that he appears in the recently opened communist-era state security archives. Source"
+    },
+    {
+      "id": "https://english.atlatszo.hu/?p=37267",
+      "title": "Russia’s propaganda reaches both far-right and far-left groups in Hungary through conflicting narratives about 1956",
+      "link": "https://english.atlatszo.hu/2026/11/11/russias-propaganda-reaches-both-far-right-and-far-left-groups-in-hungary-through-conflicting-narratives-about-1956/",
+      "source": "Átlátszó English",
+      "topic": "Investigative",
+      "published": "2026-11-11T12:43:09+00:00",
+      "summary": "Russian propaganda seeks to cater to Hungarian patriotism over the 1956 Revolution, while Russian media outlets portray the historic event as a fascist uprising and a \"color revolution\". Source"
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/11/aron-orban-former-hungarian-pm-s-brother-arrested",
+      "title": "Áron Orbán, former Hungarian PM's brother arrested",
+      "link": "https://telex.hu/english/2026/11/11/aron-orban-former-hungarian-pm-s-brother-arrested",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-11T00:00:00+00:00",
+      "summary": "They are suspected of people smuggling carried out as part of a criminal conspiracy. The decision is not yet final."
+    },
+    {
+      "id": "https://insighthungary.444.hu/2026/11/06/orban-says-he-rejected-recruitment-during-communist-era-former-hungarian-pm-claims-he-saw-informant-reports-from-him",
+      "title": "Orban says he rejected recruitment during communist era, former Hungarian PM claims he saw informant reports from him",
+      "link": "https://insighthungary.444.hu/2026/11/06/orban-says-he-rejected-recruitment-during-communist-era-former-hungarian-pm-claims-he-saw-informant-reports-from-him",
+      "source": "Insight Hungary (444)",
+      "topic": "News",
+      "published": "2026-11-06T00:00:00+00:00",
+      "summary": ""
+    },
+    {
+      "id": "https://insighthungary.444.hu/2026/10/30/maga-pushes-for-orban-as-un-secretary-general-magyar-says-it-would-harm-the-organization",
+      "title": "MAGA pushes for Orban as UN Secretary General, Magyar says it would harm the organization",
+      "link": "https://insighthungary.444.hu/2026/10/30/maga-pushes-for-orban-as-un-secretary-general-magyar-says-it-would-harm-the-organization",
+      "source": "Insight Hungary (444)",
+      "topic": "News",
+      "published": "2026-10-30T00:00:00+00:00",
+      "summary": ""
+    }
+  ]
 }
