@@ -3,7 +3,6 @@
 # url_contains: only keep entries whose link contains this text (used for Telex English).
 default_limit: 4
 feeds:
-  - {name: "Telex English", type: html, topic: "News", url: "https://telex.hu/english", link_pattern: "/(english|direkt36)/\\d{4}/\\d{2}/\\d{2}/", lede: true, limit: 6}
   - {name: "Insight Hungary (444)", type: html, topic: "News", url: "https://insighthungary.444.hu/"}
   - {name: "Átlátszó English", type: rss, topic: "Investigative", url: "https://english.atlatszo.hu/feed/"}
   - {name: "Daily News Hungary", type: rss, topic: "News", url: "https://dailynewshungary.com/feed/"}
@@ -15,7 +14,14 @@ feeds:
   - {name: "Decoding Hungarian Politics (Substack)", type: rss, topic: "Newsletters", url: "https://hungarianpolitics.substack.com/feed"}
   - {name: "Hungary Insider (Substack)", type: rss, topic: "Newsletters", url: "https://hungaryinsider.substack.com/feed"}
   - {name: "Hungarian Observer (Substack)", type: rss, topic: "Newsletters", url: "https://hungarianobserver.substack.com/feed"}
-  - {name: "About Hungary (government)", type: rss, topic: "Government", url: "https://abouthungary.hu/rss", enabled: false}
+  - {name: "About Hungary (government)", type: rss, topic: "Government", url: "https://abouthungary.hu/rss", enabled: true}
+  - {name: "Telex English"
+    type: playwright          # new type
+    topic: "News"
+    url: "https://telex.hu/english"
+    link_pattern: "/(english|direkt36)/\\d{4}/\\d{2}/\\d{2}/"
+    lede: true
+    limit: 6}
 
 voices:   # link-only (Hungarian-language or no feed): use your browser's translate
   - {name: "444.hu", platform: Website, url: "https://444.hu", note: "Hungarian original. English edition is Insight Hungary in the feed"}
