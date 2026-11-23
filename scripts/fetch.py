@@ -257,7 +257,7 @@ def main() -> None:
                 entries = scrape_playwright(f)
             elif f.get("type") == "html":
                 entries = scrape(f)
-           else:
+            else:
                 entries = get_entries(f)
 
             n = 0
