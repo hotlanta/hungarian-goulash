@@ -22,8 +22,6 @@ feeds:
   - {name: "How To Hungary", type: rss, topic: "Expat life", url: "https://howtohungary.com/feed/"}
 
   # --- Travel & City life ---
-  - {name: "Salt in Our Hair", type: rss, topic: "Travel", url: "https://www.saltinourhair.com/feed/", url_contains: "hungary", limit: 3}
-  - {name: "World Travel Family", type: rss, topic: "Travel", url: "https://worldtravelfamily.com/feed/", url_contains: "hungary", limit: 3}
   - {name: "We Love Budapest", type: rss, topic: "City life", url: "https://welovebudapest.com/en/rss/"}
 
 voices:
