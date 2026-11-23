@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T20:10:07.130752+00:00",
+  "updated": "2026-11-23T20:39:20.233475+00:00",
   "sources": [
     {
       "name": "Telex English",
@@ -12,43 +12,43 @@
       "name": "Insight Hungary (444)",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:10:07.130752+00:00"
+      "last_success": "2026-11-23T20:39:20.233475+00:00"
     },
     {
       "name": "Átlátszó English",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:10:07.130752+00:00"
+      "last_success": "2026-11-23T20:39:20.233475+00:00"
     },
     {
       "name": "VSquare",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:10:07.130752+00:00"
+      "last_success": "2026-11-23T20:39:20.233475+00:00"
     },
     {
       "name": "Daily News Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:10:07.130752+00:00"
+      "last_success": "2026-11-23T20:39:20.233475+00:00"
     },
     {
       "name": "Hungary Today",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:10:07.130752+00:00"
+      "last_success": "2026-11-23T20:39:20.233475+00:00"
     },
     {
       "name": "Hungarian Conservative",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:10:07.130752+00:00"
+      "last_success": "2026-11-23T20:39:20.233475+00:00"
     },
     {
       "name": "Budapest Times",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:10:07.130752+00:00"
+      "last_success": "2026-11-23T20:39:20.233475+00:00"
     },
     {
       "name": "Decoding Hungarian Politics (Substack)",
@@ -75,19 +75,7 @@
       "name": "How To Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:10:07.130752+00:00"
-    },
-    {
-      "name": "Salt in Our Hair",
-      "ok": true,
-      "count": 0,
-      "last_success": "2026-11-23T20:10:07.130752+00:00"
-    },
-    {
-      "name": "World Travel Family",
-      "ok": true,
-      "count": 0,
-      "last_success": "2026-11-23T20:10:07.130752+00:00"
+      "last_success": "2026-11-23T20:39:20.233475+00:00"
     },
     {
       "name": "We Love Budapest",
@@ -124,6 +112,15 @@
     }
   ],
   "items": [
+    {
+      "id": "https://dailynewshungary.com/?p=710277",
+      "title": "Foreign minister: Hungary to host next Friends of the Western Balkans meeting",
+      "link": "https://dailynewshungary.com/hungary-host-friends-of-western-balkans/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-23T20:34:00+00:00",
+      "summary": "Hungary will host the next Friends of the Western Balkans meeting as Budapest steps up its support for EU enlargement. Continue reading: https://dailynewshungary.com/hungary-host-friends-of-western-balkans/"
+    },
     {
       "id": "https://dailynewshungary.com/?p=710275",
       "title": "How much will one euro cost in Hungary in 2027? Here’s what analysts predict",
