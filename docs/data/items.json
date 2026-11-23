@@ -1,85 +1,100 @@
 {
-  "updated": "2026-11-23T19:22:33.122661+00:00",
+  "updated": "2026-11-23T20:10:07.130752+00:00",
   "sources": [
-    {
-      "name": "Insight Hungary (444)",
-      "ok": true,
-      "count": 4,
-      "last_success": "2026-11-23T19:22:33.122661+00:00"
-    },
-    {
-      "name": "Átlátszó English",
-      "ok": true,
-      "count": 4,
-      "last_success": "2026-11-23T19:22:33.122661+00:00"
-    },
-    {
-      "name": "Daily News Hungary",
-      "ok": true,
-      "count": 4,
-      "last_success": "2026-11-23T19:22:33.122661+00:00"
-    },
-    {
-      "name": "Hungary Today",
-      "ok": true,
-      "count": 4,
-      "last_success": "2026-11-23T19:22:33.122661+00:00"
-    },
-    {
-      "name": "Hungarian Conservative",
-      "ok": true,
-      "count": 4,
-      "last_success": "2026-11-23T19:22:33.122661+00:00"
-    },
-    {
-      "name": "VSquare",
-      "ok": true,
-      "count": 4,
-      "last_success": "2026-11-23T19:22:33.122661+00:00"
-    },
-    {
-      "name": "How To Hungary",
-      "ok": true,
-      "count": 4,
-      "last_success": "2026-11-23T19:22:33.122661+00:00"
-    },
-    {
-      "name": "Budapest Times",
-      "ok": true,
-      "count": 4,
-      "last_success": "2026-11-23T19:22:33.122661+00:00"
-    },
-    {
-      "name": "Decoding Hungarian Politics (Substack)",
-      "ok": true,
-      "count": 4,
-      "last_success": "2026-11-23T19:22:33.122661+00:00"
-    },
-    {
-      "name": "Hungary Insider (Substack)",
-      "ok": true,
-      "count": 4,
-      "last_success": "2026-11-23T19:22:33.122661+00:00"
-    },
-    {
-      "name": "Hungarian Observer (Substack)",
-      "ok": true,
-      "count": 4,
-      "last_success": "2026-11-23T19:22:33.122661+00:00"
-    },
-    {
-      "name": "About Hungary (government)",
-      "ok": false,
-      "count": 0,
-      "error": "feed had no entries",
-      "last_success": null
-    },
     {
       "name": "Telex English",
       "ok": false,
       "count": 8,
       "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://telex.hu/english\", waiting until \"networkidle\"\n",
       "last_success": "2026-11-23T17:21:19.624703+00:00"
+    },
+    {
+      "name": "Insight Hungary (444)",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T20:10:07.130752+00:00"
+    },
+    {
+      "name": "Átlátszó English",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T20:10:07.130752+00:00"
+    },
+    {
+      "name": "VSquare",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T20:10:07.130752+00:00"
+    },
+    {
+      "name": "Daily News Hungary",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T20:10:07.130752+00:00"
+    },
+    {
+      "name": "Hungary Today",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T20:10:07.130752+00:00"
+    },
+    {
+      "name": "Hungarian Conservative",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T20:10:07.130752+00:00"
+    },
+    {
+      "name": "Budapest Times",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T20:10:07.130752+00:00"
+    },
+    {
+      "name": "Decoding Hungarian Politics (Substack)",
+      "ok": false,
+      "count": 0,
+      "error": "feed HTTP 403; api HTTP 403; playwright Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://hungar",
+      "last_success": "2026-11-23T19:22:33.122661+00:00"
+    },
+    {
+      "name": "Hungary Insider (Substack)",
+      "ok": false,
+      "count": 4,
+      "error": "feed HTTP 403; api HTTP 403; playwright Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://hungar",
+      "last_success": "2026-11-23T19:22:33.122661+00:00"
+    },
+    {
+      "name": "Hungarian Observer (Substack)",
+      "ok": false,
+      "count": 4,
+      "error": "feed HTTP 403; api HTTP 403; playwright Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://hungar",
+      "last_success": "2026-11-23T19:22:33.122661+00:00"
+    },
+    {
+      "name": "How To Hungary",
+      "ok": true,
+      "count": 4,
+      "last_success": "2026-11-23T20:10:07.130752+00:00"
+    },
+    {
+      "name": "Salt in Our Hair",
+      "ok": true,
+      "count": 0,
+      "last_success": "2026-11-23T20:10:07.130752+00:00"
+    },
+    {
+      "name": "World Travel Family",
+      "ok": true,
+      "count": 0,
+      "last_success": "2026-11-23T20:10:07.130752+00:00"
+    },
+    {
+      "name": "We Love Budapest",
+      "ok": false,
+      "count": 0,
+      "error": "feed had no entries",
+      "last_success": null
     }
   ],
   "voices": [
@@ -100,6 +115,12 @@
       "platform": "Website",
       "url": "https://atlatszo.hu",
       "note": "Investigative reporting, Hungarian original"
+    },
+    {
+      "name": "Direkt36",
+      "platform": "Website",
+      "url": "https://www.direkt36.hu",
+      "note": "Top Hungarian investigative outlet. Many stories appear in English via VSquare"
     }
   ],
   "items": [
