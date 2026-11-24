@@ -1,54 +1,53 @@
 {
-  "updated": "2026-11-24T00:00:56.363633+00:00",
+  "updated": "2026-11-24T10:04:33.364700+00:00",
   "sources": [
     {
       "name": "Telex English",
-      "ok": false,
-      "count": 8,
-      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://telex.hu/english\", waiting until \"networkidle\"\n",
-      "last_success": "2026-11-23T17:21:19.624703+00:00"
+      "ok": true,
+      "count": 6,
+      "last_success": "2026-11-24T10:04:33.364700+00:00"
     },
     {
       "name": "Insight Hungary (444)",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T00:00:56.363633+00:00"
+      "last_success": "2026-11-24T10:04:33.364700+00:00"
     },
     {
       "name": "Átlátszó English",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T00:00:56.363633+00:00"
+      "last_success": "2026-11-24T10:04:33.364700+00:00"
     },
     {
       "name": "VSquare",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T00:00:56.363633+00:00"
+      "last_success": "2026-11-24T10:04:33.364700+00:00"
     },
     {
       "name": "Daily News Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T00:00:56.363633+00:00"
+      "last_success": "2026-11-24T10:04:33.364700+00:00"
     },
     {
       "name": "Hungary Today",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T00:00:56.363633+00:00"
+      "last_success": "2026-11-24T10:04:33.364700+00:00"
     },
     {
       "name": "Hungarian Conservative",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T00:00:56.363633+00:00"
+      "last_success": "2026-11-24T10:04:33.364700+00:00"
     },
     {
       "name": "Budapest Times",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T00:00:56.363633+00:00"
+      "last_success": "2026-11-24T10:04:33.364700+00:00"
     },
     {
       "name": "Decoding Hungarian Politics (Substack)",
@@ -75,7 +74,7 @@
       "name": "How To Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T00:00:56.363633+00:00"
+      "last_success": "2026-11-24T10:04:33.364700+00:00"
     },
     {
       "name": "We Love Budapest",
@@ -112,6 +111,114 @@
     }
   ],
   "items": [
+    {
+      "id": "https://hungarytoday.hu/?p=389591",
+      "title": "“Mr. Prime Minister, You Cannot Just Say Anything You Please”",
+      "link": "https://hungarytoday.hu/mr-prime-minister-you-cannot-just-say-anything-you-please/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-24T10:00:31+00:00",
+      "summary": "Péter Magyar had no issues with reinforcing his narrative of alleged FIDESZ corruption with a mole-toy, hinting at recently dug up cash, even though investigators have unequivocally stated that the money found underground can in no way be tied to former Orbán-government…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710296",
+      "title": "Major Japanese business delegation visits Budapest for first time in nearly 20 years",
+      "link": "https://dailynewshungary.com/japanese-delegation-visit-budapest-20-years/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-24T09:54:00+00:00",
+      "summary": "Mitsubishi, Toyota, Hitachi and Kawasaki executives are among 35 Japanese business leaders visiting Budapest for the first time in nearly 20 years: Continue reading: https://dailynewshungary.com/japanese-delegation-visit-budapest-20-years/"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389592",
+      "title": "V4 Summit: United in Rejecting EU Budget, Divided Over Ukraine Aid",
+      "link": "https://hungarytoday.hu/v4-summit-united-in-rejecting-eu-budget-divided-over-ukraine-aid/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-24T09:05:23+00:00",
+      "summary": "L-R: Polish Prime Minister Donald Tusk, Austrian Chancellor Christian Stocker, Slovak Prime Minister Robert Fico, Czech Prime Minister Andrej Babiš, and Hungarian Prime Minister Péter Magyar at the expanded meeting of the V4 prime ministers at Bratislava Castle The prime…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389593",
+      "title": "Construction of Buda Tram Network Extension to Begin",
+      "link": "https://hungarytoday.hu/construction-of-buda-tram-network-extension-to-begin/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-24T09:04:34+00:00",
+      "summary": "Construction of the southern extension of the Buda tram network is set to begin, the Minister of Transport and Investment announced on Facebook on Monday. Dávid Vitézy wrote that the new tram line between Szent Gellért Square and Budafoki Road will be built at a cost of more…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710292",
+      "title": "Hungary’s economy minister predicts ending price margin cap could have positive effects for shoppers",
+      "link": "https://dailynewshungary.com/hungary-minister-price-margin-cap-shop-prices/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-24T08:34:00+00:00",
+      "summary": "Hungary’s Minister of Economy and Energy, István Kapitány, has argued that removing the government’s retail price margin cap could have benefits not only for the economy, but for the people, too. Continue reading:…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89429",
+      "title": "Hungarian Court Rejects Bail Bid, Extends Matolcsy’s Detention",
+      "link": "https://www.hungarianconservative.com/articles/current/hungary-extends-detention-former-central-bank-governor-matolcsy/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-24T08:19:16+00:00",
+      "summary": "A Budapest court has extended the detention of former National Bank of Hungary governor György Matolcsy by three months as part of an investigation into suspected large-scale financial fraud. The post Hungarian Court Rejects Bail Bid, Extends Matolcsy’s Detention appeared first…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710288",
+      "title": "Péter Magyar rejects EU budget proposal, compares negotiations to a ‘Marrakesh bazaar’",
+      "link": "https://dailynewshungary.com/magyar-eu-budget-proposal/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-24T07:14:00+00:00",
+      "summary": "Péter Magyar has rejected the EU's proposed seven-year budget, opposing compulsory Ukrainian funding and criticising the proposal in unusually blunt terms: Continue reading: https://dailynewshungary.com/magyar-eu-budget-proposal/"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710285",
+      "title": "Direct Budapest-Japan flights on the horizon? Transport minister holds discussion with airlines",
+      "link": "https://dailynewshungary.com/direct-budapest-japan-flights-discussion/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-24T05:34:00+00:00",
+      "summary": "Could Budapest get a direct flight to Japan? Hungary has begun preliminary talks with the country's two largest airlines: Continue reading: https://dailynewshungary.com/direct-budapest-japan-flights-discussion/"
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42479",
+      "title": "PM rejects Ukraine-EU budget link ahead of Brussels summit",
+      "link": "https://www.budapesttimes.hu/world/pm-rejects-ukraine-eu-budget-link-ahead-of-brussels-summit/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-24T05:05:36+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42477",
+      "title": "Ex-minister suspected of bribe-taking loses appeal to walk free",
+      "link": "https://www.budapesttimes.hu/hungary/ex-minister-suspected-of-bribe-taking-loses-appeal-to-walk-free/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-24T05:02:59+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42481",
+      "title": "Manufacturing weighs heavily on investment as energy-sector growth provides some relief",
+      "link": "https://www.budapesttimes.hu/economy/manufacturing-weighs-heavily-on-investment-as-energy-sector-growth-provides-some-relief/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-24T05:01:47+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/24/magyar-on-eu-budget-i-do-not-consider-this-a-basis-for-negotiation-by-any-means",
+      "title": "Magyar on EU budget proposal: I do not consider this a basis for negotiation in any way",
+      "link": "https://telex.hu/english/2026/11/24/magyar-on-eu-budget-i-do-not-consider-this-a-basis-for-negotiation-by-any-means",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-24T00:00:00+00:00",
+      "summary": ""
+    },
     {
       "id": "https://dailynewshungary.com/?p=710277",
       "title": "Foreign minister: Hungary to host next Friends of the Western Balkans meeting",
@@ -634,6 +741,15 @@
       "topic": "Expat life",
       "published": "2026-11-14T09:30:39+00:00",
       "summary": "Last Saturday, Andrew and I joined around 200 people at the InterContinental Budapest for the 32nd Canadian Lobster Dinner, the biggest night of the year for the Canadian Chamber of Commerce in Hungary. Whole lobsters came in from Nova Scotia. The room was a proper mix of…"
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/14/more-than-eur17-million-in-cash-found-buried-in-forests-hidden-in-warehouses-and-safes-in-case-of-former-fidesz-era-minister",
+      "title": "More than €17 million of cash found buried in forests, hidden in warehouses and safes in case of...",
+      "link": "https://telex.hu/english/2026/11/14/more-than-eur17-million-in-cash-found-buried-in-forests-hidden-in-warehouses-and-safes-in-case-of-former-fidesz-era-minister",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-14T00:00:00+00:00",
+      "summary": "The KDNP-delegated MP and former minister of national development is suspected of accepting bribes while in office. He was arrested in late September."
     },
     {
       "id": "https://insighthungary.444.hu/2026/11/14/hungary-to-introduce-womens-rights-reforms",
