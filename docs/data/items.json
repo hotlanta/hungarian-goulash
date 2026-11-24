@@ -1,53 +1,53 @@
 {
-  "updated": "2026-11-24T10:04:33.364700+00:00",
+  "updated": "2026-11-24T22:35:28.746396+00:00",
   "sources": [
     {
       "name": "Telex English",
       "ok": true,
       "count": 6,
-      "last_success": "2026-11-24T10:04:33.364700+00:00"
+      "last_success": "2026-11-24T22:35:28.746396+00:00"
     },
     {
       "name": "Insight Hungary (444)",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T10:04:33.364700+00:00"
+      "last_success": "2026-11-24T22:35:28.746396+00:00"
     },
     {
       "name": "Átlátszó English",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T10:04:33.364700+00:00"
+      "last_success": "2026-11-24T22:35:28.746396+00:00"
     },
     {
       "name": "VSquare",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T10:04:33.364700+00:00"
+      "last_success": "2026-11-24T22:35:28.746396+00:00"
     },
     {
       "name": "Daily News Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T10:04:33.364700+00:00"
+      "last_success": "2026-11-24T22:35:28.746396+00:00"
     },
     {
       "name": "Hungary Today",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T10:04:33.364700+00:00"
+      "last_success": "2026-11-24T22:35:28.746396+00:00"
     },
     {
       "name": "Hungarian Conservative",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T10:04:33.364700+00:00"
+      "last_success": "2026-11-24T22:35:28.746396+00:00"
     },
     {
       "name": "Budapest Times",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T10:04:33.364700+00:00"
+      "last_success": "2026-11-24T22:35:28.746396+00:00"
     },
     {
       "name": "Decoding Hungarian Politics (Substack)",
@@ -74,7 +74,7 @@
       "name": "How To Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T10:04:33.364700+00:00"
+      "last_success": "2026-11-24T22:35:28.746396+00:00"
     },
     {
       "name": "We Love Budapest",
@@ -111,6 +111,114 @@
     }
   ],
   "items": [
+    {
+      "id": "https://dailynewshungary.com/?p=710544",
+      "title": "Magyar and Zelensky discuss energy, trade and EU membership as Hungary and Ukraine seek closer ties",
+      "link": "https://dailynewshungary.com/magyar-zelensky-energy-trade-eu-membership/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-24T20:34:00+00:00",
+      "summary": "Magyar and Zelensky discussed energy, trade and EU membership as Hungary and Ukraine seek to rebuild relations: Continue reading: https://dailynewshungary.com/magyar-zelensky-energy-trade-eu-membership/"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710322",
+      "title": "Young Hungarian talent Martin Molnár to race in Formula 3 from 2027",
+      "link": "https://dailynewshungary.com/hungarian-martin-molnar-race-formula-3-2027/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-24T19:14:00+00:00",
+      "summary": "The Formula 3 team the Hungarian talent signed for has helped develop several drivers who went on to reach Formula 1, including Charles Leclerc, Oscar Piastri, Oliver Bearman and now world champion Andrea Kimi Antonelli. Continue reading:…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710193",
+      "title": "Best Online Casinos for Real Money in the USA 2026",
+      "link": "https://dailynewshungary.com/best-online-casinos-usa/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-24T18:39:56+00:00",
+      "summary": "Playing at real money online casinos means your wins are paid out as cash you can withdraw. Sites differ a lot on how much of a bonus you can actually keep and how long payouts take. We compare the best options for welcome offers, payout speed and game range, so you know what to…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710220",
+      "title": "New Online Casinos: Latest Casino Sites in the US",
+      "link": "https://dailynewshungary.com/new-online-casinos-usa/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-24T18:39:46+00:00",
+      "summary": "New online casinos draw attention for three reasons: bigger launch offers, the newest games and cashiers built for quicker payments. The headline bonus is rarely the full picture, though, because the terms behind it decide what it's really worth. Only a few states license…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89484",
+      "title": "Top Marxist Thinker Slavoj Žižek Admits Admiring Bukele, Wants Leftist Version",
+      "link": "https://www.hungarianconservative.com/articles/culture_society/slavoj-zizek-marxism-bukele-popularity-left-democracy/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-24T17:00:00+00:00",
+      "summary": "Slavoj Žižek says he ‘almost admires’ Nayib Bukele despite calling his methods brutal, because the Salvadoran president has spectacularly reduced crime and restored social order. The Marxist philosopher now wants the left to find its own Bukele—while Bukele rejected the label…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89444",
+      "title": "Costa Aims to Finalize EU’s Next Seven-Year Budget by Friday",
+      "link": "https://www.hungarianconservative.com/articles/current/eu-leaders-face-deadline-for-budget-and-ukraine-funding-deal/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-24T16:00:00+00:00",
+      "summary": "European Council President António Costa has called on EU leaders to reach an agreement on the bloc’s next seven-year budget and secure funding for Ukraine in 2027. The post Costa Aims to Finalize EU’s Next Seven-Year Budget by Friday appeared first on Hungarian Conservative ."
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389693",
+      "title": "Hungarian Teenage Racing Talent to Join Formula 3",
+      "link": "https://hungarytoday.hu/hungarian-teenage-racing-talent-to-join-formula-3/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-24T15:30:54+00:00",
+      "summary": "Martin Molnár has reached another milestone in his career: in 2027, he will continue competing in the FIA Formula 3 Championship, driving for PREMA Racing, one of the sport’s most successful junior teams based in Italy. With this step up, the Hungarian driver will become a…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389643",
+      "title": "Eger Advent to Bring 80 Festive Programs and Spectacular Christmas Lights",
+      "link": "https://hungarytoday.hu/eger-advent-to-bring-80-festive-programs-and-spectacular-christmas-lights/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-24T15:00:41+00:00",
+      "summary": "Eighty festive events, concerts, culinary experiences, and a revamped holiday light display await visitors in Eger’s historic downtown (northern Hungary) during the Advent season. Mayor Ákos Vágner said that Eger’s Christmas tree was brought at Dobó Square from Maklár. The…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89468",
+      "title": "EU Socialists Turn on Danish PM over Immigration, Leave Door Open to Expulsion",
+      "link": "https://www.hungarianconservative.com/articles/current/frederiksen-eu-socialists-democrats-sd-immigration-population-replacement-sanctions/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-24T14:47:43+00:00",
+      "summary": "Mette Frederiksen’s migration agenda is winning allies across Europe while her own political family moves against her. The S&D will formally debate her policies and has not ruled out disciplinary action after clashes over Pedro Sánchez, Ceuta and return hubs—an awkward…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389673",
+      "title": "Nobel Laureate Ferenc Krausz Presents Groundbreaking Research in Hong Kong",
+      "link": "https://hungarytoday.hu/nobel-laureate-ferenc-krausz-presents-groundbreaking-research-in-hong-kong/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-24T14:30:50+00:00",
+      "summary": "Nobel laureate Ferenc Krausz, Managing Director of the Center for Molecular Fingerprinting (CMF), presented the center’s research findings at the University of Hong Kong. This pioneering research focuses on measuring health changes against an individual’s own previously…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389654",
+      "title": "Defense Forces’ Leopard Tanks on Their First International Exercise",
+      "link": "https://hungarytoday.hu/defense-forces-leopard-tanks-on-their-first-international-exercise/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-24T13:30:03+00:00",
+      "summary": "Thirty soldiers from the Hungarian Defense Forces’ 25th ‘Klapka György’ Armored Brigade are representing Hungary at Exercise GALLANT-CHEETAH 2026 in Poland, with four Leopard 2A7HU main battle tanks and one Wisent 2 armored support vehicle. During the exercise, the armed forces…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89443",
+      "title": "Europe’s First Return Hub Must Survive Litigation. Why Risk It on Rwanda?",
+      "link": "https://www.hungarianconservative.com/articles/politics/eu-return-hub-rwanda-litigation-congo-deportation/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-24T12:52:35+00:00",
+      "summary": "Europe’s emerging return hub system needs its first facility to survive both politically and legally if the model is to expand. That makes the choice of Rwanda particularly consequential: Kigali faces two international cases over eastern Congo, while NGOs are preparing legal…"
+    },
     {
       "id": "https://hungarytoday.hu/?p=389591",
       "title": "“Mr. Prime Minister, You Cannot Just Say Anything You Please”",
@@ -209,6 +317,24 @@
       "topic": "News",
       "published": "2026-11-24T05:01:47+00:00",
       "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/24/zelensky-and-magyar-lay-wreaths-together-in-uzhhorod-magyar-says-it-is-a-historic-day",
+      "title": "Zelensky and Magyar lay wreaths in Uzhhorod, Magyar speaks of historic day",
+      "link": "https://telex.hu/english/2026/11/24/zelensky-and-magyar-lay-wreaths-together-in-uzhhorod-magyar-says-it-is-a-historic-day",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-24T00:00:00+00:00",
+      "summary": ""
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/24/current-eu-presidency-suggests-article-7-proceedings-against-hungary-may-soon-be-terminated",
+      "title": "Current EU presidency implies Article 7 procedure against Hungary may soon be terminated",
+      "link": "https://telex.hu/english/2026/11/24/current-eu-presidency-suggests-article-7-proceedings-against-hungary-may-soon-be-terminated",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-24T00:00:00+00:00",
+      "summary": ""
     },
     {
       "id": "https://telex.hu/english/2026/11/24/magyar-on-eu-budget-i-do-not-consider-this-a-basis-for-negotiation-by-any-means",
@@ -697,6 +823,15 @@
       "summary": ""
     },
     {
+      "id": "https://telex.hu/english/2026/11/18/arte-democracy-hungary-poland-serbia",
+      "title": "Arte: What does it take to rebuild a democracy?",
+      "link": "https://telex.hu/english/2026/11/18/arte-democracy-hungary-poland-serbia",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-18T00:00:00+00:00",
+      "summary": "From the Law and Justice party to Viktor Orbán and Aleksandar Vučić, illiberal leaders across Europe spent years eroding democracy."
+    },
+    {
       "id": "https://hungarianobserver.substack.com/p/fidesz-vs-spectacle-0-3",
       "title": "Fidesz vs Spectacle: 0-3",
       "link": "https://hungarianobserver.substack.com/p/fidesz-vs-spectacle-0-3",
@@ -723,6 +858,15 @@
       "summary": "Why I saved it.",
       "pinned": true,
       "published": "2026-11-16T12:00:00+00:00"
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/16/they-are-treating-us-as-if-we-were-a-colony-the-relationship-between-the-hungarian-state-and-france-s-vinci-has-deteriorated",
+      "title": "\"They are treating us as if we were a colony\" – The relationship between the Hungarian state and...",
+      "link": "https://telex.hu/english/2026/11/16/they-are-treating-us-as-if-we-were-a-colony-the-relationship-between-the-hungarian-state-and-france-s-vinci-has-deteriorated",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-16T00:00:00+00:00",
+      "summary": "Despite the impressive business results, there are serious disagreements between the owners about the implementation of the planned railway link or what the new terminal should be like, according to..."
     },
     {
       "id": "https://howtohungary.com/?p=2102",
