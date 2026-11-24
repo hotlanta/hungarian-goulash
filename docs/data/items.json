@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T20:39:20.233475+00:00",
+  "updated": "2026-11-24T00:00:56.363633+00:00",
   "sources": [
     {
       "name": "Telex English",
@@ -12,43 +12,43 @@
       "name": "Insight Hungary (444)",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:39:20.233475+00:00"
+      "last_success": "2026-11-24T00:00:56.363633+00:00"
     },
     {
       "name": "Átlátszó English",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:39:20.233475+00:00"
+      "last_success": "2026-11-24T00:00:56.363633+00:00"
     },
     {
       "name": "VSquare",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:39:20.233475+00:00"
+      "last_success": "2026-11-24T00:00:56.363633+00:00"
     },
     {
       "name": "Daily News Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:39:20.233475+00:00"
+      "last_success": "2026-11-24T00:00:56.363633+00:00"
     },
     {
       "name": "Hungary Today",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:39:20.233475+00:00"
+      "last_success": "2026-11-24T00:00:56.363633+00:00"
     },
     {
       "name": "Hungarian Conservative",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:39:20.233475+00:00"
+      "last_success": "2026-11-24T00:00:56.363633+00:00"
     },
     {
       "name": "Budapest Times",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:39:20.233475+00:00"
+      "last_success": "2026-11-24T00:00:56.363633+00:00"
     },
     {
       "name": "Decoding Hungarian Politics (Substack)",
@@ -75,7 +75,7 @@
       "name": "How To Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-23T20:39:20.233475+00:00"
+      "last_success": "2026-11-24T00:00:56.363633+00:00"
     },
     {
       "name": "We Love Budapest",
