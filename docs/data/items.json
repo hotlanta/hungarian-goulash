@@ -1,53 +1,53 @@
 {
-  "updated": "2026-11-24T22:35:28.746396+00:00",
+  "updated": "2026-11-25T08:49:23.621966+00:00",
   "sources": [
     {
       "name": "Telex English",
       "ok": true,
       "count": 6,
-      "last_success": "2026-11-24T22:35:28.746396+00:00"
+      "last_success": "2026-11-25T08:49:23.621966+00:00"
     },
     {
       "name": "Insight Hungary (444)",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T22:35:28.746396+00:00"
+      "last_success": "2026-11-25T08:49:23.621966+00:00"
     },
     {
       "name": "Átlátszó English",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T22:35:28.746396+00:00"
+      "last_success": "2026-11-25T08:49:23.621966+00:00"
     },
     {
       "name": "VSquare",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T22:35:28.746396+00:00"
+      "last_success": "2026-11-25T08:49:23.621966+00:00"
     },
     {
       "name": "Daily News Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T22:35:28.746396+00:00"
+      "last_success": "2026-11-25T08:49:23.621966+00:00"
     },
     {
       "name": "Hungary Today",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T22:35:28.746396+00:00"
+      "last_success": "2026-11-25T08:49:23.621966+00:00"
     },
     {
       "name": "Hungarian Conservative",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T22:35:28.746396+00:00"
+      "last_success": "2026-11-25T08:49:23.621966+00:00"
     },
     {
       "name": "Budapest Times",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T22:35:28.746396+00:00"
+      "last_success": "2026-11-25T08:49:23.621966+00:00"
     },
     {
       "name": "Decoding Hungarian Politics (Substack)",
@@ -74,7 +74,7 @@
       "name": "How To Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-24T22:35:28.746396+00:00"
+      "last_success": "2026-11-25T08:49:23.621966+00:00"
     },
     {
       "name": "We Love Budapest",
@@ -111,6 +111,87 @@
     }
   ],
   "items": [
+    {
+      "id": "https://dailynewshungary.com/?p=710549",
+      "title": "New express bus service to connect Budapest and Pécs from December!",
+      "link": "https://dailynewshungary.com/new-express-bus-service-budapest-pecs/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-25T08:34:00+00:00",
+      "summary": "A new reserved-seat express bus will connect Budapest and Pécs every two hours, with additional airport services. Continue reading: https://dailynewshungary.com/new-express-bus-service-budapest-pecs/"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389755",
+      "title": "Péter Magyar’s Ukraine Visit Brings Plenty of Solidarity but Few Concrete Results",
+      "link": "https://hungarytoday.hu/peter-magyars-ukraine-visit-brings-plenty-of-solidarity-but-few-concrete-results/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-25T08:31:52+00:00",
+      "summary": "Hungarian Prime Minister Péter Magyar traveled to western Ukraine on Tuesday to meet with Ukrainian President Volodymyr Zelenskyy. It was the first official visit by a Hungarian head of government to the Transcarpathia region since 2015. The talks focused on strengthening…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389737",
+      "title": "Toyota, Mitsubishi and Kawasaki Executives Return to Budapest After 20 Years",
+      "link": "https://hungarytoday.hu/toyota-mitsubishi-and-kawasaki-executives-return-to-budapest-after-20-years/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-25T07:50:22+00:00",
+      "summary": "After nearly twenty years, the Keidanren delegation—composed of key players in the Japanese economy—has once again arrived in Budapest. The 35-member delegation included executives from global Japanese companies such as Mitsubishi, Kawasaki, Toyota, and Hitachi who participated…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710329",
+      "title": "Hungary to spend an extra EUR 325 million on public roads in 2027",
+      "link": "https://dailynewshungary.com/hungary-spend-extra-eur-325-million-road-2027/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-25T07:14:00+00:00",
+      "summary": "Hungary will multiply the funds for renovating and maintaining its public road network in 2027. Continue reading: https://dailynewshungary.com/hungary-spend-extra-eur-325-million-road-2027/"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710555",
+      "title": "Hungary approves extra EUR 2.7 million in support for ethnic Hungarians in Transcarpathia",
+      "link": "https://dailynewshungary.com/millions-support-hungarians-transcarpathia/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-25T05:34:00+00:00",
+      "summary": "Hungary is providing an extra HUF 1 billion to ethnic Hungarians in Transcarpathia, alongside separate humanitarian aid for Ukraine: Continue reading: https://dailynewshungary.com/millions-support-hungarians-transcarpathia/"
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42487",
+      "title": "Magyar backs Ukraine reconstruction but insists peace must come first",
+      "link": "https://www.budapesttimes.hu/diplomacy/magyar-backs-ukraine-reconstruction-but-insists-peace-must-come-first/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-25T05:19:08+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42485",
+      "title": "Parliamentary committee to hear Matolcsy in detention",
+      "link": "https://www.budapesttimes.hu/hungary/parliamentary-committee-to-hear-matolcsy-in-detention/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-25T05:16:19+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42483",
+      "title": "Snow and freezing rain warnings issued for several counties",
+      "link": "https://www.budapesttimes.hu/hungary/snow-and-freezing-rain-warnings-issued-for-several-counties/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-25T05:13:17+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89496",
+      "title": "Spanish Media Report Massive Electoral Fraud Allegations in Overseas Voting",
+      "link": "https://www.hungarianconservative.com/articles/current/spain-electoral-fraud-overseas-voting-pedro-sanchez-grandchildren-law/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-24T23:03:00+00:00",
+      "summary": "Spanish media are reporting serious irregularities in overseas voting following the Sánchez government’s controversial Grandchildren Law, which expanded the electorate by 375,000 and deliberately made the process chaotic. Concerns over potential electoral fraud, including…"
+    },
     {
       "id": "https://dailynewshungary.com/?p=710544",
       "title": "Magyar and Zelensky discuss energy, trade and EU membership as Hungary and Ukraine seek closer ties",
@@ -317,6 +398,15 @@
       "topic": "News",
       "published": "2026-11-24T05:01:47+00:00",
       "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/24/magyar-hungary-will-play-a-key-role-in-the-rebuilding-effort-in-ukraine",
+      "title": "Magyar: From a logistical standpoint, Hungary will play a key role in rebuilding Ukraine",
+      "link": "https://telex.hu/english/2026/11/24/magyar-hungary-will-play-a-key-role-in-the-rebuilding-effort-in-ukraine",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-24T00:00:00+00:00",
+      "summary": ""
     },
     {
       "id": "https://telex.hu/english/2026/11/24/zelensky-and-magyar-lay-wreaths-together-in-uzhhorod-magyar-says-it-is-a-historic-day",
@@ -821,6 +911,15 @@
       "topic": "News",
       "published": "2026-11-19T00:00:00+00:00",
       "summary": ""
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/18/under-szijjarto-hungarian-foreign-ministry-instructed-consuls-in-vietnam-to-fast-track-processing-of-visas-for-aron-orban-s-companies",
+      "title": "Under Szijjártó, Hungarian MFA instructed consuls in Vietnam to fast-track processing of visas for...",
+      "link": "https://telex.hu/english/2026/11/18/under-szijjarto-hungarian-foreign-ministry-instructed-consuls-in-vietnam-to-fast-track-processing-of-visas-for-aron-orban-s-companies",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-18T00:00:00+00:00",
+      "summary": "Emails indicating this were published by State Secretary of the MFA, György Velkey. According to Viktor Orbán's official, this is \"yet another attempt at defamation\"."
     },
     {
       "id": "https://telex.hu/english/2026/11/18/arte-democracy-hungary-poland-serbia",
