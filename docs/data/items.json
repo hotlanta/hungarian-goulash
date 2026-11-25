@@ -1,53 +1,54 @@
 {
-  "updated": "2026-11-25T08:49:23.621966+00:00",
+  "updated": "2026-11-25T21:49:12.545767+00:00",
   "sources": [
     {
       "name": "Telex English",
-      "ok": true,
-      "count": 6,
+      "ok": false,
+      "count": 16,
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://telex.hu/english\", waiting until \"networkidle\"\n",
       "last_success": "2026-11-25T08:49:23.621966+00:00"
     },
     {
       "name": "Insight Hungary (444)",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-25T08:49:23.621966+00:00"
+      "last_success": "2026-11-25T21:49:12.545767+00:00"
     },
     {
       "name": "Átlátszó English",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-25T08:49:23.621966+00:00"
+      "last_success": "2026-11-25T21:49:12.545767+00:00"
     },
     {
       "name": "VSquare",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-25T08:49:23.621966+00:00"
+      "last_success": "2026-11-25T21:49:12.545767+00:00"
     },
     {
       "name": "Daily News Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-25T08:49:23.621966+00:00"
+      "last_success": "2026-11-25T21:49:12.545767+00:00"
     },
     {
       "name": "Hungary Today",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-25T08:49:23.621966+00:00"
+      "last_success": "2026-11-25T21:49:12.545767+00:00"
     },
     {
       "name": "Hungarian Conservative",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-25T08:49:23.621966+00:00"
+      "last_success": "2026-11-25T21:49:12.545767+00:00"
     },
     {
       "name": "Budapest Times",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-25T08:49:23.621966+00:00"
+      "last_success": "2026-11-25T21:49:12.545767+00:00"
     },
     {
       "name": "Decoding Hungarian Politics (Substack)",
@@ -74,7 +75,7 @@
       "name": "How To Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-25T08:49:23.621966+00:00"
+      "last_success": "2026-11-25T21:49:12.545767+00:00"
     },
     {
       "name": "We Love Budapest",
@@ -111,6 +112,123 @@
     }
   ],
   "items": [
+    {
+      "id": "https://dailynewshungary.com/?p=710619",
+      "title": "Daily cuteness: watch how Budapest Zoo’s Persian leopard cubs take their first steps",
+      "link": "https://dailynewshungary.com/budapest-zoo-persian-leopard-cubs/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-25T20:34:00+00:00",
+      "summary": "Two Persian leopard cubs at Budapest Zoo are beginning to explore their surroundings after opening their eyes and attempting their first steps at around three weeks old. Continue reading: https://dailynewshungary.com/budapest-zoo-persian-leopard-cubs/"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710604",
+      "title": "Hungary could still reach EUR 1,000 minimum wage by 2028, despite missing another target",
+      "link": "https://dailynewshungary.com/hungary-eur-1000-minimum-wage-2028/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-25T19:14:00+00:00",
+      "summary": "Hungary may miss its 2027 minimum wage target, but the promised EUR 1,000 monthly minimum wage could still be within reach by 2028: Continue reading: https://dailynewshungary.com/hungary-eur-1000-minimum-wage-2028/"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710611",
+      "title": "Peru and Hungary celebrate the voluntary restitution of 16 archaeological artifacts to Peru",
+      "link": "https://dailynewshungary.com/peru-hungary-archaeological-artifacts/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-25T18:35:58+00:00",
+      "summary": "Sixteen archaeological artefacts belonging to Peru’s cultural heritage have been voluntarily returned from Hungary. A ceremony at Budapest’s Museum of Ethnography celebrated the restitution and highlighted the strong cultural ties between the two countries: Continue reading:…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710603",
+      "title": "18+: Young woman dragged along by train after her backpack stuck between the doors",
+      "link": "https://dailynewshungary.com/young-woman-dragged-by-train-stuck-doors/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-25T17:54:00+00:00",
+      "summary": "A 21-year-old woman suffered life-threatening injuries and lost both her legs after her clothing and backpack became trapped in the doors of an InterCity train which dragged her along the platform for hundreds of metres. Continue reading:…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89600",
+      "title": "Spain Records Highest-Ever Single-Day Illegal Migrant Boat Arrivals",
+      "link": "https://www.hungarianconservative.com/articles/current/spain-illegal-migration-boat-record-arrivals-el-hierro/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-25T17:01:00+00:00",
+      "summary": "Spain recorded its highest-ever number of illegal immigrant arrivals by boat in a single day on Tuesday, with more than 2,100 reaching El Hierro just five days before the election. While Pedro Sánchez insists the situation is under control, Vox leader Santiago Abascal accused…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89586",
+      "title": "Milei Backs Poland for G20 after Meeting with Nawrocki",
+      "link": "https://www.hungarianconservative.com/articles/current/milei-nawrocki-argentina-poland-g20/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-25T16:30:00+00:00",
+      "summary": "President Javier Milei of Argentina has voiced his support for Poland joining the G20 following a meeting with Polish President Karol Nawrocki in Buenos Aires. The talks focused on bilateral economic and trade cooperation, as Argentina seeks to expand its international trade…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89576",
+      "title": "Right-Wing Mayor Outwits ‘Christmas Ban’ with France’s Largest Nativity Scene",
+      "link": "https://www.hungarianconservative.com/articles/culture_society/perpignan-christmas-nativity-scene-progressive-ban-france/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-25T15:30:00+00:00",
+      "summary": "Years of progressive litigation against Perpignan’s Christmas displays have backfired, with right-wing Mayor Louis Aliot now installing France’s largest Nativity scene outdoors. The sculptures, which arrived from Alicante, have sparked outrage among local leftists, with…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389804",
+      "title": "Hungarian Technology Aids Mercury Research",
+      "link": "https://hungarytoday.hu/hungarian-technology-aids-mercury-research/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-25T15:00:04+00:00",
+      "summary": "The European Space Agency (ESA) and Japan Aerospace Exploration Agency (JAXA) joint BepiColombo spacecraft has entered orbit around Mercury carrying a Hungarian-developed instrument. Researchers at HUN-REN’s Wigner Research Center for Physics contributed to the mission by…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389799",
+      "title": "Magyar Telekom Expands Budapest Data Center in Multi-Billion-Forint Investment",
+      "link": "https://hungarytoday.hu/magyar-telekom-expands-budapest-data-center-in-multi-billion-forint-investment/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-25T14:31:31+00:00",
+      "summary": "Magyar Telekom is carrying out a capacity expansion worth several billion forints at its data center on Asztalos Sándor Street in Budapest; the upgrades will continue until the end of the first half of 2028, the telecommunications company told MTI on Wednesday. In the first…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89558",
+      "title": "ECtHR ‘Landmark’ Migration Compromise Falls Short on Border Sovereignty",
+      "link": "https://www.hungarianconservative.com/articles/current/strasbourg-ecthr-rulings-poland-latvia-hybrid-coercion-illegal-migration/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-25T14:30:00+00:00",
+      "summary": "Strasbourg has finally recognized that countries subjected to the weaponization of immigration have the right to close their borders and carry out pushbacks. Yet by ruling against Poland and Latvia over Belarus’s hybrid operation, the court has demonstrated that its concessions…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389793",
+      "title": "A Special Christmas Surprise Awaits at Lake Balaton’s Annual Car Parade",
+      "link": "https://hungarytoday.hu/a-special-christmas-surprise-awaits-at-lake-balatons-annual-car-parade/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-25T14:00:47+00:00",
+      "summary": "The Christmas Car Parade in Balatonalmádi has grown from a local initiative into a nationally recognized holiday event in just a few years. After setting an official Hungarian record in 2024 with 173 vehicles, the parade broke its own record in 2025, featuring 284 decorated and…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389780",
+      "title": "Government to Double Family Allowance from January",
+      "link": "https://hungarytoday.hu/government-to-double-family-allowance-from-january/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-25T13:26:52+00:00",
+      "summary": "Starting January 1, 2027, Hungary’s family allowance will double, following legislation approved by Parliament on Tuesday. Lawmakers also voted to introduce a new tax credit and impose a monthly income ceiling of 1 million forints (approximately 2,700 euros/ 1 euro=369 forints)…"
+    },
+    {
+      "id": "https://howtohungary.com/?p=2139",
+      "title": "KATA 2027: It’s All About Your Clients",
+      "link": "https://howtohungary.com/2026/11/25/new-kata-2027/",
+      "source": "How To Hungary",
+      "topic": "Expat life",
+      "published": "2026-11-25T12:44:05+00:00",
+      "summary": "Checked 24 November 2026. Parliament has passed the new KATA law, but it is not yet published in the Magyar Közlöny, the official gazette. Check the published text before you act on any detail. Andrew and I registered for KATA in 2018, a year after we moved here. For two years…"
+    },
     {
       "id": "https://dailynewshungary.com/?p=710549",
       "title": "New express bus service to connect Budapest and Pécs from December!",
