@@ -1,53 +1,53 @@
 {
-  "updated": "2026-11-26T08:35:11.478060+00:00",
+  "updated": "2026-11-26T21:42:05.958840+00:00",
   "sources": [
     {
       "name": "Telex English",
       "ok": true,
       "count": 6,
-      "last_success": "2026-11-26T08:35:11.478060+00:00"
+      "last_success": "2026-11-26T21:42:05.958840+00:00"
     },
     {
       "name": "Insight Hungary (444)",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T08:35:11.478060+00:00"
+      "last_success": "2026-11-26T21:42:05.958840+00:00"
     },
     {
       "name": "Átlátszó English",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T08:35:11.478060+00:00"
+      "last_success": "2026-11-26T21:42:05.958840+00:00"
     },
     {
       "name": "VSquare",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T08:35:11.478060+00:00"
+      "last_success": "2026-11-26T21:42:05.958840+00:00"
     },
     {
       "name": "Daily News Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T08:35:11.478060+00:00"
+      "last_success": "2026-11-26T21:42:05.958840+00:00"
     },
     {
       "name": "Hungary Today",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T08:35:11.478060+00:00"
+      "last_success": "2026-11-26T21:42:05.958840+00:00"
     },
     {
       "name": "Hungarian Conservative",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T08:35:11.478060+00:00"
+      "last_success": "2026-11-26T21:42:05.958840+00:00"
     },
     {
       "name": "Budapest Times",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T08:35:11.478060+00:00"
+      "last_success": "2026-11-26T21:42:05.958840+00:00"
     },
     {
       "name": "Decoding Hungarian Politics (Substack)",
@@ -74,7 +74,7 @@
       "name": "How To Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T08:35:11.478060+00:00"
+      "last_success": "2026-11-26T21:42:05.958840+00:00"
     },
     {
       "name": "We Love Budapest",
@@ -111,6 +111,114 @@
     }
   ],
   "items": [
+    {
+      "id": "https://dailynewshungary.com/?p=710684",
+      "title": "FM Anita Orbán: dozens of Hungarian companies willing to help rebuild Ukraine",
+      "link": "https://dailynewshungary.com/fm-hungarian-companies-rebuild-ukraine/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-26T20:34:00+00:00",
+      "summary": "Lots of Hungarian companies have told the government they are willing to take part in Ukraine's reconstruction once the war ends. Continue reading: https://dailynewshungary.com/fm-hungarian-companies-rebuild-ukraine/"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710682",
+      "title": "Viktor Orbán establishes new international foundation with one goal",
+      "link": "https://dailynewshungary.com/viktor-orban-new-international-foundation/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-26T19:14:00+00:00",
+      "summary": "Former Hungarian prime minister Viktor Orbán has established a new international foundation. Continue reading: https://dailynewshungary.com/viktor-orban-new-international-foundation/"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710679",
+      "title": "PM Magyar says EU summit talks are entering their final stretch, but agreement remains elusive",
+      "link": "https://dailynewshungary.com/magyar-eu-summit-talks-final-stretch/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-26T17:54:00+00:00",
+      "summary": "Péter Magyar says Hungary will reject EU budget proposals that cut its funding or link negotiations to Ukraine’s proposed loan. Continue reading: https://dailynewshungary.com/magyar-eu-summit-talks-final-stretch/"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710673",
+      "title": "Women leaders meet in Budapest to discuss tackling violence against women",
+      "link": "https://dailynewshungary.com/women-leaders-budapest-tackle-violence/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-26T17:14:00+00:00",
+      "summary": "Women leaders from diplomacy, business and civil society met in Budapest to discuss preventing violence against women and supporting survivors. Continue reading: https://dailynewshungary.com/women-leaders-budapest-tackle-violence/"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89674",
+      "title": "Rubio Exit Rumours Swirl After Trump and Vance Sideline Him in Nvidia Deal",
+      "link": "https://www.hungarianconservative.com/articles/current/rubio-nvidia-jensen-huang-trump-vance-2028-presidential-bid/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-26T15:00:00+00:00",
+      "summary": "Donald Trump and JD Vance secured Jensen Huang’s reinstatement as Nvidia CEO without involving Marco Rubio in the negotiations, despite his central role in raising national security concerns over Huang. While the secretary of state insists that he will serve until the end of…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389913",
+      "title": "Pécs Ballet Reimagines Dracula as a Tragic Tale of Eternal Love",
+      "link": "https://hungarytoday.hu/pecs-ballet-reimagines-dracula-as-a-tragic-tale-of-eternal-love/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-26T14:30:40+00:00",
+      "summary": "Béla Lugosi as Count Dracula in the iconic 1931 film adaptation The Pécs Ballet will premiere a multidisciplinary production reimagining Count Dracula’s story through the themes of romance, passion, and human tragedy on November 28 in the southern Hungarian city of Pécs. Drawing…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389919",
+      "title": "Nearly Half of Toddlers Use Digital Devices Every Day, Study Finds",
+      "link": "https://hungarytoday.hu/nearly-half-of-toddlers-use-digital-devices-every-day-study-finds/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-26T14:00:05+00:00",
+      "summary": "Nearly half of 18-month-old children in Hungary use some kind of digital device every day, even though their development at this age primarily requires physical activity, play, and personal interactions. The figures come from a study involving researchers at Eötvös Loránd…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89633",
+      "title": "Top Gear Set for 2028 Return with Gordon Ramsay as New Presenter",
+      "link": "https://www.hungarianconservative.com/articles/current/bbc-relaunches-top-gear-with-gordon-ramsay-as-presenter/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-26T14:00:00+00:00",
+      "summary": "The BBC is bringing back its globally successful motoring programme Top Gear, with celebrity chef Gordon Ramsay leading a new presenting team. Filming is due to begin next year, with the first episode scheduled to air in 2028. The post Top Gear Set for 2028 Return with Gordon…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389894",
+      "title": "Vintage Ikarus Buses Bring Festive Sightseeing Tours to Budapest This Advent",
+      "link": "https://hungarytoday.hu/vintage-ikarus-buses-bring-festive-sightseeing-tours-to-budapest-this-advent/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-26T13:30:43+00:00",
+      "summary": "The Transportation Museum welcomes visitors with restored Ikarus 311 and Ikarus 66 buses on Advent weekends from November 28 through December 20. On these vehicles, decked out in festive decorations, passengers can learn about the history of Hungarian bus manufacturing and the…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389880",
+      "title": "Hungarians’ Favorite Christmas Candy Gets an Unusual Twist",
+      "link": "https://hungarytoday.hu/hungarians-favorite-christmas-candy-gets-an-unusual-twist/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-26T12:50:07+00:00",
+      "summary": "A smoky whiskey and hazelnut creation has been crowned Hungary’s best szaloncukor (traditional Hungarian Christmas fondant candy) this year. The unusual festive flavor was created by Hóvirág Ice Cream Parlor in Orosháza, taking first place in the ‘Szaloncukor of the Year’…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89647",
+      "title": "US GDP Grew by 4.3% Last Quarter, More than Expected",
+      "link": "https://www.hungarianconservative.com/articles/current/us-gdp-grew-q3-2026/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-26T12:32:16+00:00",
+      "summary": "The United States’ GDP grew by 4.3 per cent in the third quarter of 2026—more than the market expectations of 3.4 per cent, and the most since Q4 2021. Gas prices have also been falling sharply for the last two months in the US. The post US GDP Grew by 4.3% Last Quarter, More…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89656",
+      "title": "Sweden’s Right Bloc Gets Another Shot as Far Left Sinks Coalition Talks Again",
+      "link": "https://www.hungarianconservative.com/articles/current/sweden-coalition-talks-kristersson-centre-party-far-left-snap-election/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-26T11:31:11+00:00",
+      "summary": "Sweden’s left-wing coalition talks have collapsed again, prompting the Centre Party to reconsider backing caretaker Prime Minister Ulf Kristersson. If unsuccessful, next Monday’s third prime-ministerial vote could bring Sweden closer to a snap election, with Kristersson’s…"
+    },
     {
       "id": "https://dailynewshungary.com/?p=710628",
       "title": "Germany’s Merz warns Russia wants more than Ukraine as he defends support for Kyiv",
@@ -191,6 +299,24 @@
       "topic": "News",
       "published": "2026-11-26T04:30:00+00:00",
       "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/26/why-ukrainian-corn-could-keep-the-hungarian-agricultural-sector-running-smoothly",
+      "title": "Why Ukrainian corn could keep the Hungarian agricultural sector running smoothly",
+      "link": "https://telex.hu/english/2026/11/26/why-ukrainian-corn-could-keep-the-hungarian-agricultural-sector-running-smoothly",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-26T00:00:00+00:00",
+      "summary": ""
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/26/arte-gender-based-violence-military-service",
+      "title": "Arte: Gender-based violence in the military – a systemic problem?",
+      "link": "https://telex.hu/english/2026/11/26/arte-gender-based-violence-military-service",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-26T00:00:00+00:00",
+      "summary": ""
     },
     {
       "id": "https://www.hungarianconservative.com/?p=89616",
@@ -1120,18 +1246,27 @@
       "summary": "Hackers working for Russian intelligence tried to steal data from a former deputy director of Hungary’s foreign intelligence service, former state secretaries, and from me. Putin’s hackers used similar tactics to break into Hungary’s foreign ministry under Péter Szijjártó.…"
     },
     {
-      "id": "https://telex.hu/english/2026/11/19/sikorski-poland-will-also-represent-hungary-at-russian-ukrainian-talks",
-      "title": "Sikorski: Poland will also represent Hungary at Russian-Ukrainian peace talks",
-      "link": "https://telex.hu/english/2026/11/19/sikorski-poland-will-also-represent-hungary-at-russian-ukrainian-talks",
-      "source": "Telex English",
-      "topic": "News",
-      "published": "2026-11-19T00:00:00+00:00",
-      "summary": ""
-    },
-    {
       "id": "https://telex.hu/english/2026/11/19/viktor-orban-s-younger-brother-asked-ambassador-to-iraq-for-help-in-letter-signed-aron-orban-the-prime-minister-s-brother",
       "title": "Viktor Orbán’s younger brother asked ambassador to Iraq for help in letter signed “Áron Orbán (the...",
       "link": "https://telex.hu/english/2026/11/19/viktor-orban-s-younger-brother-asked-ambassador-to-iraq-for-help-in-letter-signed-aron-orban-the-prime-minister-s-brother",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": "The former PM's office had previously said that influencing government decisions by citing personal or family connections was not possible during the national government's time in office."
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/19/erasmus-rapporteur-i-didn-t-expect-peter-magyar-to-make-such-quick-progress",
+      "title": "Erasmus+ rapporteur: I didn’t expect Péter Magyar to make such quick progress",
+      "link": "https://telex.hu/english/2026/11/19/erasmus-rapporteur-i-didn-t-expect-peter-magyar-to-make-such-quick-progress",
+      "source": "Telex English",
+      "topic": "News",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": "MEP Bogdan Andrzej Zdrojewski spoke to Hungarian journalists in Brussels about plans for the Erasmus+ program between 2028–2034, as well as the rejoining of the Hungarian universities which have..."
+    },
+    {
+      "id": "https://telex.hu/english/2026/11/19/sikorski-poland-will-also-represent-hungary-at-russian-ukrainian-talks",
+      "title": "Sikorski: Poland will also represent Hungary at Russian-Ukrainian peace talks",
+      "link": "https://telex.hu/english/2026/11/19/sikorski-poland-will-also-represent-hungary-at-russian-ukrainian-talks",
       "source": "Telex English",
       "topic": "News",
       "published": "2026-11-19T00:00:00+00:00",
