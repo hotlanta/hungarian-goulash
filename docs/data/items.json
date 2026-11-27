@@ -1,53 +1,53 @@
 {
-  "updated": "2026-11-27T08:47:00.571659+00:00",
+  "updated": "2026-11-27T21:26:58.985883+00:00",
   "sources": [
     {
       "name": "Telex English",
       "ok": true,
       "count": 6,
-      "last_success": "2026-11-27T08:47:00.571659+00:00"
+      "last_success": "2026-11-27T21:26:58.985883+00:00"
     },
     {
       "name": "Insight Hungary (444)",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T08:47:00.571659+00:00"
+      "last_success": "2026-11-27T21:26:58.985883+00:00"
     },
     {
       "name": "Átlátszó English",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T08:47:00.571659+00:00"
+      "last_success": "2026-11-27T21:26:58.985883+00:00"
     },
     {
       "name": "VSquare",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T08:47:00.571659+00:00"
+      "last_success": "2026-11-27T21:26:58.985883+00:00"
     },
     {
       "name": "Daily News Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T08:47:00.571659+00:00"
+      "last_success": "2026-11-27T21:26:58.985883+00:00"
     },
     {
       "name": "Hungary Today",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T08:47:00.571659+00:00"
+      "last_success": "2026-11-27T21:26:58.985883+00:00"
     },
     {
       "name": "Hungarian Conservative",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T08:47:00.571659+00:00"
+      "last_success": "2026-11-27T21:26:58.985883+00:00"
     },
     {
       "name": "Budapest Times",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T08:47:00.571659+00:00"
+      "last_success": "2026-11-27T21:26:58.985883+00:00"
     },
     {
       "name": "Decoding Hungarian Politics (Substack)",
@@ -74,7 +74,7 @@
       "name": "How To Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T08:47:00.571659+00:00"
+      "last_success": "2026-11-27T21:26:58.985883+00:00"
     },
     {
       "name": "We Love Budapest",
@@ -111,6 +111,114 @@
     }
   ],
   "items": [
+    {
+      "id": "https://dailynewshungary.com/?p=710746",
+      "title": "Hungary’s most expensive and cheapest streets revealed — with a 210-fold price gap",
+      "link": "https://dailynewshungary.com/hungary-most-expensive-cheapest-streets/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-27T20:34:00+00:00",
+      "summary": "There's a huge gap between Hungary's priciest and cheapest streets: Continue reading: https://dailynewshungary.com/hungary-most-expensive-cheapest-streets/"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710744",
+      "title": "Hungary lifts entry ban on Ukrainian drone commander Robert “Magyar” Brovdi",
+      "link": "https://dailynewshungary.com/hungary-lifts-entry-ban-magyar-brovdi/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-27T19:14:00+00:00",
+      "summary": "Hungary has lifted the entry ban on Ukrainian drone commander Robert “Magyar” Brovdi, imposed in 2025 over attacks on the Druzhba pipeline. Continue reading: https://dailynewshungary.com/hungary-lifts-entry-ban-magyar-brovdi/"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710738",
+      "title": "A country came together to save her: Young woman dies after being dragged by train at station",
+      "link": "https://dailynewshungary.com/young-woman-dies-after-train-accident/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-27T17:54:00+00:00",
+      "summary": "A young woman has died after being dragged by an InterCity train at Mezőkövesd station. The circumstances are still under investigation. Continue reading: https://dailynewshungary.com/young-woman-dies-after-train-accident/"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710726",
+      "title": "Budapest shopping centre passage closed overnight? Corvin Plaza says corridor remains available via security intercom",
+      "link": "https://dailynewshungary.com/budapest-shopping-centre-passage-closed/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-27T16:34:00+00:00",
+      "summary": "Corvin Plaza says its passage and underground car park remain accessible overnight – but visitors must contact the shopping centre’s security team: Continue reading: https://dailynewshungary.com/budapest-shopping-centre-passage-closed/"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89780",
+      "title": "Horror Train Accident in Hungary Kills 18-Year-Old College Girl",
+      "link": "https://www.hungarianconservative.com/articles/culture_society/hungary-horror-train-accident-18-year-old-girl/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-27T16:30:00+00:00",
+      "summary": "An 18-year-old college girl got her bag's strap caught in the door of a departing train in Mezőkövesd, Hungary. She was dragged for hundreds of metres. Sadly, after three days in the intensive care unit, she passed away despite the doctors’ best efforts. The post Horror Train…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89776",
+      "title": "Eight-Year-Old Boy among Pro-Bukele Youth Executed by Haitian Gangs",
+      "link": "https://www.hungarianconservative.com/articles/current/haiti-gangs-execution-bukele-el-salvador-military-operation-amnesty/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-27T15:31:48+00:00",
+      "summary": "An eight-year-old boy has reportedly been beheaded by Haitian gang members amid a growing campaign of reprisals against civilians supporting Salvadoran President Nayib Bukele’s military offensive. As reports emerge of young Haitians being executed for possessing images of…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=390028",
+      "title": "Free Sledding Weekend Ahead of Ski Season Opening in Eplény",
+      "link": "https://hungarytoday.hu/free-sledding-weekend-ahead-of-ski-season-opening-in-epleny/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-27T14:50:02+00:00",
+      "summary": "A sledding run awaits visitors in Eplény on the lower section of the ski slope on Saturday and Sunday. Ahead of the ski season opening next week, visitors arriving with sleds can use this section of the slope for free, the managing director of Síaréna Vibe Park informed MTI.…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=390019",
+      "title": "EUFOR Contingent Tests Crowd-Control Skills Ahead of Bosnia Mission",
+      "link": "https://hungarytoday.hu/eufor-contingent-tests-crowd-control-skills-ahead-of-bosnia-mission/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-27T14:30:50+00:00",
+      "summary": "The final exercise for the 31st rotation of the Hungarian EUFOR Contingent is currently underway, with crowd control taking center stage on the second day. The opposing force put up a determined challenge, not only hurling verbal provocations but also throwing bottles and…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389985",
+      "title": "Culture Minister Orders Review of Controversial HUF 3 Billion Grant Allocation",
+      "link": "https://hungarytoday.hu/culture-minister-orders-review-of-controversial-huf-3-billion-grant-allocation/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-27T14:00:13+00:00",
+      "summary": "In the wake of the controversy surrounding the allocation of cultural grants, Zoltán Tarr, Minister of Social Relations and Culture, has ordered a review of the entire funding process before any payments are made. Although Tarr continued to defend the allocations as…"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389987",
+      "title": "Major Cannery Faces Bankruptcy as Industrial Shutdowns Mount",
+      "link": "https://hungarytoday.hu/major-cannery-faces-bankruptcy-as-industrial-shutdowns-mount/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-27T13:30:25+00:00",
+      "summary": "Bankruptcy proceedings have been launched against a major food-processing plant in eastern Hungary, which employs around 350 people. The company is seeking to reach an agreement with its creditors during a payment moratorium, while suppliers are increasingly concerned about…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89754",
+      "title": "Trump’s NATO 3.0 Delayed as Expected US Troop Cuts in Europe Shrink to 5,000",
+      "link": "https://www.hungarianconservative.com/articles/current/trump-nato-us-troops-europe-overhaul/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-27T13:30:00+00:00",
+      "summary": "The Trump administration has postponed the overhaul of America’s military presence in Europe, with NATO allies now expecting troop reductions of around 5,000 rather than the 25,000 initially feared. While Washington wants Europeans to assume primary responsibility for…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89739",
+      "title": "Reform UK Wins Four out of Four Birmingham By-Elections Amidst Burnham–EU Talks",
+      "link": "https://www.hungarianconservative.com/articles/current/reform-uk-wins-birmingham-by-elections/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-27T12:30:00+00:00",
+      "summary": "Reform UK retained all four council seats contested in two Birmingham by-elections. The seats were vacated after four of their local councillors resigned due to a racism scandal. The results came as Prime Minister Andy Burnham is pursuing closer ties with the European Union. The…"
+    },
     {
       "id": "https://hungarytoday.hu/?p=389951",
       "title": "Economic Confidence Falls to Seven-Month Low as Businesses Prepare Job Cuts",
