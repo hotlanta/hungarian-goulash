@@ -1,53 +1,53 @@
 {
-  "updated": "2026-11-26T21:42:05.958840+00:00",
+  "updated": "2026-11-27T08:47:00.571659+00:00",
   "sources": [
     {
       "name": "Telex English",
       "ok": true,
       "count": 6,
-      "last_success": "2026-11-26T21:42:05.958840+00:00"
+      "last_success": "2026-11-27T08:47:00.571659+00:00"
     },
     {
       "name": "Insight Hungary (444)",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T21:42:05.958840+00:00"
+      "last_success": "2026-11-27T08:47:00.571659+00:00"
     },
     {
       "name": "Átlátszó English",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T21:42:05.958840+00:00"
+      "last_success": "2026-11-27T08:47:00.571659+00:00"
     },
     {
       "name": "VSquare",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T21:42:05.958840+00:00"
+      "last_success": "2026-11-27T08:47:00.571659+00:00"
     },
     {
       "name": "Daily News Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T21:42:05.958840+00:00"
+      "last_success": "2026-11-27T08:47:00.571659+00:00"
     },
     {
       "name": "Hungary Today",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T21:42:05.958840+00:00"
+      "last_success": "2026-11-27T08:47:00.571659+00:00"
     },
     {
       "name": "Hungarian Conservative",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T21:42:05.958840+00:00"
+      "last_success": "2026-11-27T08:47:00.571659+00:00"
     },
     {
       "name": "Budapest Times",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T21:42:05.958840+00:00"
+      "last_success": "2026-11-27T08:47:00.571659+00:00"
     },
     {
       "name": "Decoding Hungarian Politics (Substack)",
@@ -74,7 +74,7 @@
       "name": "How To Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-26T21:42:05.958840+00:00"
+      "last_success": "2026-11-27T08:47:00.571659+00:00"
     },
     {
       "name": "We Love Budapest",
@@ -111,6 +111,114 @@
     }
   ],
   "items": [
+    {
+      "id": "https://hungarytoday.hu/?p=389951",
+      "title": "Economic Confidence Falls to Seven-Month Low as Businesses Prepare Job Cuts",
+      "link": "https://hungarytoday.hu/economic-confidence-falls-to-seven-month-low-as-businesses-prepare-job-cuts/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-27T08:43:26+00:00",
+      "summary": "Economic sentiment has fallen to a seven-month low. Businesses’ willingness to hire has not been this low in 16 months, and the outlook for investment next year is also less favorable than it was a year ago. Based on GKI’s November survey, more than twice as many companies are…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710691",
+      "title": "One in three Hungarians faces basic cost-of-living hardship, survey finds",
+      "link": "https://dailynewshungary.com/1-in-3-hungarians-cost-of-living-hardship/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-27T08:34:00+00:00",
+      "summary": "One in three Hungarian adults struggles with basic living costs, while 43% say an unexpected HUF 120,000 (EUR 320) bill would cause serious financial strain: Continue reading: https://dailynewshungary.com/1-in-3-hungarians-cost-of-living-hardship/"
+    },
+    {
+      "id": "https://hungarytoday.hu/?p=389936",
+      "title": "Viktor Orbán Launches International Institute Consolidating Patriotic Forces",
+      "link": "https://hungarytoday.hu/viktor-orban-launches-international-institute-consolidating-patriotic-forces/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-27T07:54:20+00:00",
+      "summary": "Former Hungarian Prime Minister Viktor Orbán has founded a new international institute under the name Pro Patria International Foundation, Fidesz MEP Balázs Orbán announced on his social media accounts on Thursday. Balázs Orbán, who serves as a trustee of the foundation,…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710687",
+      "title": "Small Hungarian ice cream parlour wins 2026’s best Christmas fondant with smoky whisky creation",
+      "link": "https://dailynewshungary.com/2026s-best-christmas-fondant-whisky/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-27T07:14:00+00:00",
+      "summary": "A small ice cream parlour has beaten 146 entries to win this year’s Christmas fondant award with an unusual taste: Continue reading: https://dailynewshungary.com/2026s-best-christmas-fondant-whisky/"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710686",
+      "title": "Hungarian workforce among 3,000 people transferred by energy giant BP",
+      "link": "https://dailynewshungary.com/hungarian-worker-3000-bp-transfer/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-27T05:34:00+00:00",
+      "summary": "British energy giant BP has agreed to transfer around 3,000 employees working in its finance operations, including hundreds of workers from Hungary. Continue reading: https://dailynewshungary.com/hungarian-worker-3000-bp-transfer/"
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42511",
+      "title": "Minister faces grilling after train drags student for hundreds of metres",
+      "link": "https://www.budapesttimes.hu/hungary/minister-faces-grilling-after-train-drags-student-for-hundreds-of-metres/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-27T04:16:05+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42507",
+      "title": "Ban Ki-moon: world faces most dangerous moment since WWII",
+      "link": "https://www.budapesttimes.hu/world/ban-ki-moon-world-faces-most-dangerous-moment-since-wwii/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-27T04:15:56+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42505",
+      "title": "Unemployment holds at 4.4% as long-term joblessness edges higher",
+      "link": "https://www.budapesttimes.hu/economy/unemployment-holds-at-4-4-as-long-term-joblessness-edges-higher/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-27T04:14:06+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42509",
+      "title": "PM rejects any EU budget cut to funds",
+      "link": "https://www.budapesttimes.hu/hungary/pm-rejects-any-eu-budget-cut-to-funds/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-27T04:13:46+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://insighthungary.444.hu/2026/11/27/orban-starts-new-foundation-to-expand-his-influence-in-europe",
+      "title": "Orbán starts new foundation to expand his influence in Europe",
+      "link": "https://insighthungary.444.hu/2026/11/27/orban-starts-new-foundation-to-expand-his-influence-in-europe",
+      "source": "Insight Hungary (444)",
+      "topic": "News",
+      "published": "2026-11-27T00:00:00+00:00",
+      "summary": ""
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89715",
+      "title": "EU Budget Summit Ends in Revolt Against Costa as Leaders Cancel Friday Talks",
+      "link": "https://www.hungarianconservative.com/articles/current/eu-budget-council-summit-collapse-cohesion-ukraine/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-26T23:26:00+00:00",
+      "summary": "The EU’s extraordinary budget summit collapsed after fiscally conservative member states revolted against Council President António Costa and refused to continue negotiations on Friday. Divisions over cohesion funding and Merz’s demand for compulsory financing for Ukraine…"
+    },
+    {
+      "id": "https://www.hungarianconservative.com/?p=89693",
+      "title": "Winning Streak Over, But Still Unbeaten: Ferencváros Tie Celje in EL",
+      "link": "https://www.hungarianconservative.com/articles/culture_society/ferencvaros-celje-europa-league-2026/",
+      "source": "Hungarian Conservative",
+      "topic": "Analysis",
+      "published": "2026-11-26T22:26:16+00:00",
+      "summary": "Despite creating a lot more chances, Ferencváros have tied Slovenian champions NK Celje 0–0 at home in the UEFA Europa League. Fradi now sit on 13 points after five games, still in the top eight of the league phase, which would spare them the play-off round before the Round of…"
+    },
     {
       "id": "https://dailynewshungary.com/?p=710684",
       "title": "FM Anita Orbán: dozens of Hungarian companies willing to help rebuild Ukraine",
