@@ -1,53 +1,53 @@
 {
-  "updated": "2026-11-27T21:26:58.985883+00:00",
+  "updated": "2026-11-28T08:01:01.304961+00:00",
   "sources": [
     {
       "name": "Telex English",
       "ok": true,
       "count": 6,
-      "last_success": "2026-11-27T21:26:58.985883+00:00"
+      "last_success": "2026-11-28T08:01:01.304961+00:00"
     },
     {
       "name": "Insight Hungary (444)",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T21:26:58.985883+00:00"
+      "last_success": "2026-11-28T08:01:01.304961+00:00"
     },
     {
       "name": "Átlátszó English",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T21:26:58.985883+00:00"
+      "last_success": "2026-11-28T08:01:01.304961+00:00"
     },
     {
       "name": "VSquare",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T21:26:58.985883+00:00"
+      "last_success": "2026-11-28T08:01:01.304961+00:00"
     },
     {
       "name": "Daily News Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T21:26:58.985883+00:00"
+      "last_success": "2026-11-28T08:01:01.304961+00:00"
     },
     {
       "name": "Hungary Today",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T21:26:58.985883+00:00"
+      "last_success": "2026-11-28T08:01:01.304961+00:00"
     },
     {
       "name": "Hungarian Conservative",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T21:26:58.985883+00:00"
+      "last_success": "2026-11-28T08:01:01.304961+00:00"
     },
     {
       "name": "Budapest Times",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T21:26:58.985883+00:00"
+      "last_success": "2026-11-28T08:01:01.304961+00:00"
     },
     {
       "name": "Decoding Hungarian Politics (Substack)",
@@ -74,7 +74,7 @@
       "name": "How To Hungary",
       "ok": true,
       "count": 4,
-      "last_success": "2026-11-27T21:26:58.985883+00:00"
+      "last_success": "2026-11-28T08:01:01.304961+00:00"
     },
     {
       "name": "We Love Budapest",
@@ -111,6 +111,51 @@
     }
   ],
   "items": [
+    {
+      "id": "https://hungarytoday.hu/?p=389937",
+      "title": "Advent Programs and Guided Tours Await Visitors at Veszprém Castle",
+      "link": "https://hungarytoday.hu/advent-programs-and-guided-tours-await-visitors-at-veszprem-castle/",
+      "source": "Hungary Today",
+      "topic": "News",
+      "published": "2026-11-28T07:00:06+00:00",
+      "summary": "Visitors can explore three sacred spaces at Veszprém Castle during guided tours held on Advent weekends, and museum games, exhibitions, and family programs also await those preparing for the holidays. Visitors can explore the archbishop’s private chapel—which is rarely open to…"
+    },
+    {
+      "id": "https://dailynewshungary.com/?p=710757",
+      "title": "Hungarian MÁV launches Advent Express trains for one-day Christmas market trips to European cities",
+      "link": "https://dailynewshungary.com/mav-advent-express-trains-christmas-markets/",
+      "source": "Daily News Hungary",
+      "topic": "News",
+      "published": "2026-11-28T06:34:00+00:00",
+      "summary": "Fancy visiting a European Christmas market without booking a hotel? MÁV's Advent Express trains are returning, offering one-day trips from Hungary to festive destinations: Continue reading: https://dailynewshungary.com/mav-advent-express-trains-christmas-markets/"
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42519",
+      "title": "Magyar draws red lines: no cuts, no new burdens, no deal",
+      "link": "https://www.budapesttimes.hu/world/magyar-draws-red-lines-no-cuts-no-new-burdens-no-deal/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-28T04:04:06+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42517",
+      "title": "Fewer babies and weddings as population decline continues",
+      "link": "https://www.budapesttimes.hu/health/fewer-babies-and-weddings-as-population-decline-continues/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-28T04:03:21+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
+    {
+      "id": "https://www.budapesttimes.hu/?p=42497",
+      "title": "The garden ghost who still occasionally haunts me",
+      "link": "https://www.budapesttimes.hu/people/the-garden-ghost-who-still-occasionally-haunts-me/",
+      "source": "Budapest Times",
+      "topic": "News",
+      "published": "2026-11-28T04:02:06+00:00",
+      "summary": "You must be logged into the site to view this content."
+    },
     {
       "id": "https://dailynewshungary.com/?p=710746",
       "title": "Hungary’s most expensive and cheapest streets revealed — with a 210-fold price gap",
